@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cc0a24a-0d06-4caf-9c5f-09c6cff6f246" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/dataframe/CreateDF.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/operator/O_Map.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/operator/O_Map.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/operator/O_Map.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -48,16 +47,16 @@
         <counts>
           <entry key="dummy" value="4" />
           <entry key="java" value="120" />
-          <entry key="scala" value="773" />
-          <entry key="txt" value="41" />
+          <entry key="scala" value="1236" />
+          <entry key="txt" value="59" />
           <entry key="xml" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="120" />
-          <entry key="PLAIN_TEXT" value="45" />
-          <entry key="Scala" value="773" />
+          <entry key="PLAIN_TEXT" value="63" />
+          <entry key="Scala" value="1236" />
           <entry key="XML" value="11" />
         </counts>
       </usages-collector>
@@ -87,31 +86,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="875">
+              <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/operator/O_Map.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/dataframe/CreateDF.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="-66">
+              <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
               <folding>
-                <element signature="e#18#34#0" expanded="true" />
+                <element signature="e#19#35#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/dataframe/CreateDF.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/operator/O_Map.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="509">
-              <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+            <state relative-caret-position="134">
+              <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
               <folding>
-                <element signature="e#19#35#0" expanded="true" />
+                <element signature="e#18#34#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -153,8 +152,8 @@
         <option value="$PROJECT_DIR$/src/test/scala/TestScalaTest.scala" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/src/main/scala/operator/O_Map.java" />
-        <option value="$PROJECT_DIR$/src/main/scala/operator/O_Map.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/dataframe/CreateDF.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/operator/O_Map.scala" />
       </list>
     </option>
   </component>
@@ -191,11 +190,6 @@
             <path>
               <item name="BgDataKnowledge" type="b2602c69:ProjectViewProjectNode" />
               <item name="BgDataKnowledge" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BgDataKnowledge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BgDataKnowledge" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BgDataKnowledge" type="b2602c69:ProjectViewProjectNode" />
@@ -248,7 +242,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556959785857" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556968353956" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="ScalaTest" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.ScalaTest" value="org.scalatest.FunSuite" />
@@ -282,6 +276,26 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="O_Map" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="operator.O_Map" />
+      <module name="BgDataStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="operator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.O_Map" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -296,7 +310,7 @@
       <workItem from="1556377182282" duration="1187000" />
       <workItem from="1556678156235" duration="2491000" />
       <workItem from="1556775243412" duration="2271000" />
-      <workItem from="1556956713422" duration="2830000" />
+      <workItem from="1556956713422" duration="5534000" />
     </task>
     <task id="LOCAL-00001" summary="git message">
       <created>1556377820844</created>
@@ -333,17 +347,24 @@
       <option name="project" value="LOCAL" />
       <updated>1556797925079</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="create dataframe">
+      <created>1556959951214</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1556959951214</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9249000" />
+    <option name="totallyTimeSpent" value="11953000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -351,9 +372,10 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Learn" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32840723" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -386,7 +408,8 @@
     <MESSAGE value="git message" />
     <MESSAGE value="workspace.xml" />
     <MESSAGE value="delete the pdf" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete the pdf" />
+    <MESSAGE value="create dataframe" />
+    <option name="LAST_COMMIT_MESSAGE" value="create dataframe" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
@@ -441,29 +464,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/dataframe/CreateDF.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-66">
+          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+          <folding>
+            <element signature="e#19#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="875">
+          <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/operator/O_Map.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="134">
+          <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
           <folding>
             <element signature="e#18#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/dataframe/CreateDF.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
-          <folding>
-            <element signature="e#19#35#0" expanded="true" />
           </folding>
         </state>
       </provider>

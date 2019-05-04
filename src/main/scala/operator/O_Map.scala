@@ -4,7 +4,7 @@ import java.util
 
 import org.apache.spark.SparkConf
 import org.apache.spark.sql.types.{IntegerType, StringType, StructField, StructType}
-import org.apache.spark.sql.{Row, SparkSession, types}
+import org.apache.spark.sql.{Row, SparkSession}
 
 class O_Map {
 
@@ -30,5 +30,13 @@ object O_Map {
     val df = spark.createDataFrame(valueList, schema)
 
     df.show()
+
+    /**
+      * map operator
+      */
+    val rdd = df.rdd
+    rdd.map(elem => {
+      elem.get(1)
+    }).foreach(println)
   }
 }
