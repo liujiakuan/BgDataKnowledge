@@ -18,8 +18,8 @@ object O_Map {
     val spark = SparkSession.builder().config(conf).getOrCreate()
 
     val schema = StructType(List(
-      StructField("name", StringType, true),
-      StructField("age", IntegerType, true)
+      StructField("name", StringType, nullable = true),
+      StructField("age", IntegerType, nullable = true)
     ))
 
     val valueList = new util.ArrayList[Row]()
