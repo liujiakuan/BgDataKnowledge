@@ -17,6 +17,7 @@ object O_Filter {
 
     /**
       * Filter Operator
+      * 满足filter内function函数为true的RDD内所有元素组成一个新的数据集
       */
     rdd.collect().foreach(elem => print(elem + " "))
     rdd.collect().filter(elem => elem % 2 == 0).foreach(elem => print(elem + " "))
