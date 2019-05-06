@@ -11,7 +11,7 @@ object O_groupByKey {
   def apply: O_groupByKey = new O_groupByKey()
 
   def main(args: Array[String]): Unit = {
-    val conf = new SparkConf().setAppName("intersection").setMaster("local[2]")
+    val conf = new SparkConf().setAppName("groupByKey").setMaster("local[2]")
     val spark = SparkSession.builder().config(conf).getOrCreate()
     val rdd = spark.sparkContext.parallelize(1 to 10, 3)
     val rdd2 = spark.sparkContext.parallelize(5 to 20, 3)
