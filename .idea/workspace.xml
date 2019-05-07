@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cc0a24a-0d06-4caf-9c5f-09c6cff6f246" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/operator/O_aggregateByKey.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/operator/O_aggregateByKey.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/operator/O_aggregateByKey.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,16 +50,16 @@
         <counts>
           <entry key="dummy" value="4" />
           <entry key="java" value="120" />
-          <entry key="scala" value="2996" />
-          <entry key="txt" value="171" />
+          <entry key="scala" value="3066" />
+          <entry key="txt" value="187" />
           <entry key="xml" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="120" />
-          <entry key="PLAIN_TEXT" value="175" />
-          <entry key="Scala" value="2996" />
+          <entry key="PLAIN_TEXT" value="191" />
+          <entry key="Scala" value="3066" />
           <entry key="XML" value="11" />
         </counts>
       </usages-collector>
@@ -113,8 +113,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/operator/O_aggregateByKey.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+            <state relative-caret-position="225">
+              <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
               <folding>
                 <element signature="e#18#51#0" expanded="true" />
               </folding>
@@ -259,7 +259,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557150913215" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557240621873" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="ScalaTest" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.ScalaTest" value="org.scalatest.FunSuite" />
@@ -293,7 +293,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.O_reduceByKey">
+  <component name="RunManager" selected="Application.O_aggregateByKey">
     <configuration name="O_Intersection" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="operator.O_Intersection" />
       <module name="BgDataStudy" />
@@ -307,8 +307,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="O_Sample" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="operator.O_Sample" />
+    <configuration name="O_Union" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="operator.O_Union" />
       <module name="BgDataStudy" />
       <extension name="coverage">
         <pattern>
@@ -320,8 +320,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="O_Union" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="operator.O_Union" />
+    <configuration name="O_aggregateByKey" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="operator.O_aggregateByKey" />
       <module name="BgDataStudy" />
       <extension name="coverage">
         <pattern>
@@ -360,19 +360,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.O_Sample" />
       <item itemvalue="Application.O_Union" />
       <item itemvalue="Application.O_Intersection" />
       <item itemvalue="Application.O_groupByKey" />
       <item itemvalue="Application.O_reduceByKey" />
+      <item itemvalue="Application.O_aggregateByKey" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.O_aggregateByKey" />
         <item itemvalue="Application.O_reduceByKey" />
         <item itemvalue="Application.O_groupByKey" />
         <item itemvalue="Application.O_Intersection" />
         <item itemvalue="Application.O_Union" />
-        <item itemvalue="Application.O_Sample" />
       </list>
     </recent_temporary>
   </component>
@@ -393,7 +393,7 @@
       <workItem from="1556956713422" duration="10934000" />
       <workItem from="1557061208500" duration="3048000" />
       <workItem from="1557148780156" duration="2248000" />
-      <workItem from="1557239411990" duration="323000" />
+      <workItem from="1557239411990" duration="1045000" />
     </task>
     <task id="LOCAL-00001" summary="git message">
       <created>1556377820844</created>
@@ -528,17 +528,24 @@
       <option name="project" value="LOCAL" />
       <updated>1557150795653</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="aggregateByKey operator">
+      <created>1557239791061</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1557239791061</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22972000" />
+    <option name="totallyTimeSpent" value="23694000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2753404" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2753404" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -548,7 +555,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.39244664" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39244664" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -628,7 +635,8 @@
     <MESSAGE value="distinct operator" />
     <MESSAGE value="groupByKey operator" />
     <MESSAGE value="reduceByKey operator" />
-    <option name="LAST_COMMIT_MESSAGE" value="reduceByKey operator" />
+    <MESSAGE value="aggregateByKey operator" />
+    <option name="LAST_COMMIT_MESSAGE" value="aggregateByKey operator" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
@@ -788,8 +796,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/operator/O_aggregateByKey.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+        <state relative-caret-position="225">
+          <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
           <folding>
             <element signature="e#18#51#0" expanded="true" />
           </folding>
