@@ -7,6 +7,7 @@ import org.apache.spark.sql.SparkSession
 class KeyBasePartitioner(partitions: Int) extends Partitioner {
   //分区数
   override def numPartitions: Int = partitions
+
   //该方法决定了你的数据被分到那个分区里面
   override def getPartition(key: Any): Int = {
     val k = key.asInstanceOf[String]
