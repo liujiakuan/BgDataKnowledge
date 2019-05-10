@@ -7,7 +7,7 @@ class O_reduce {
 
 }
 
-object O_reduce{
+object O_reduce {
   def apply: O_reduce = new O_reduce()
 
   def main(args: Array[String]): Unit = {
