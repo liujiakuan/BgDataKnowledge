@@ -11,7 +11,7 @@ object O_takeSample {
   def apply: O_takeSample = new O_takeSample()
 
   def main(args: Array[String]): Unit = {
-    val conf = new SparkConf().setAppName("reduce").setMaster("local[2]")
+    val conf = new SparkConf().setAppName("takeSample").setMaster("local[2]")
     val spark = SparkSession.builder().config(conf).getOrCreate()
     val rdd = spark.sparkContext.parallelize(Seq(1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10), 3)
     val pairRdd1 = rdd.map(elem => (elem, 1))
