@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cc0a24a-0d06-4caf-9c5f-09c6cff6f246" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/operator/O_reduce.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/operator/O_sortByKey.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/operator/O_sortByKey.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,16 +51,16 @@
         <counts>
           <entry key="dummy" value="4" />
           <entry key="java" value="120" />
-          <entry key="scala" value="4237" />
-          <entry key="txt" value="233" />
+          <entry key="scala" value="4254" />
+          <entry key="txt" value="239" />
           <entry key="xml" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="120" />
-          <entry key="PLAIN_TEXT" value="237" />
-          <entry key="Scala" value="4237" />
+          <entry key="PLAIN_TEXT" value="243" />
+          <entry key="Scala" value="4254" />
           <entry key="XML" value="11" />
         </counts>
       </usages-collector>
@@ -90,8 +90,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/operator/O_reduceByKey.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="13" column="48" selection-start-line="13" selection-end-line="18" selection-end-column="46" />
+            <state relative-caret-position="295">
+              <caret line="24" column="34" lean-forward="true" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
               <folding>
                 <element signature="e#18#51#0" expanded="true" />
               </folding>
@@ -99,11 +99,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/operator/O_sortByKey.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="20" column="25" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="17" />
+            <state relative-caret-position="145">
+              <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
               <folding>
                 <element signature="e#18#51#0" expanded="true" />
               </folding>
@@ -183,11 +183,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/operator/O_reduce.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+            <state>
+              <caret line="12" column="41" lean-forward="true" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
               <folding>
                 <element signature="e#18#51#0" expanded="true" />
               </folding>
@@ -245,7 +245,6 @@
         <option value="$PROJECT_DIR$/src/main/scala/operator/O_reduceByKey.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/operator/O_aggregateByKey.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/operator/O_aggregate.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/operator/O_sortByKey.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/operator/O_join.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/operator/O_cogroup.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/operator/O_cartesian.scala" />
@@ -253,6 +252,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/operator/O_repartition_coalesce.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/operator/O_repartitionAndSortWithinPartitions.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/operator/O_reduce.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/operator/O_sortByKey.scala" />
       </list>
     </option>
   </component>
@@ -341,7 +341,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557500711258" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557500915128" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="ScalaTest" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.ScalaTest" value="org.scalatest.FunSuite" />
@@ -478,7 +478,7 @@
       <workItem from="1557239411990" duration="2425000" />
       <workItem from="1557316599719" duration="2446000" />
       <workItem from="1557410773223" duration="3574000" />
-      <workItem from="1557499162277" duration="1221000" />
+      <workItem from="1557499162277" duration="1337000" />
     </task>
     <task id="LOCAL-00001" summary="git message">
       <created>1556377820844</created>
@@ -697,11 +697,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557413800858</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="reduce operator">
+      <created>1557500812001</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1557500812001</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32315000" />
+    <option name="totallyTimeSpent" value="32431000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -772,7 +779,8 @@
     <MESSAGE value="pipe operator" />
     <MESSAGE value="coalesce repartition operator" />
     <MESSAGE value="repartitionAndSortWithinPartitions operator" />
-    <option name="LAST_COMMIT_MESSAGE" value="repartitionAndSortWithinPartitions operator" />
+    <MESSAGE value="reduce operator" />
+    <option name="LAST_COMMIT_MESSAGE" value="reduce operator" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
@@ -919,26 +927,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/operator/O_reduceByKey.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="13" column="48" selection-start-line="13" selection-end-line="18" selection-end-column="46" />
-          <folding>
-            <element signature="e#18#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/operator/O_sortByKey.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="20" column="25" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="17" />
-          <folding>
-            <element signature="e#18#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/operator/O_join.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -1001,8 +989,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/operator/O_reduce.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        <state>
+          <caret line="12" column="41" lean-forward="true" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+          <folding>
+            <element signature="e#18#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/operator/O_reduceByKey.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="24" column="34" lean-forward="true" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+          <folding>
+            <element signature="e#18#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/operator/O_sortByKey.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
           <folding>
             <element signature="e#18#51#0" expanded="true" />
           </folding>

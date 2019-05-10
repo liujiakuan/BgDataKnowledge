@@ -20,6 +20,7 @@ object O_sortByKey {
       * sortByKey
       * 基于pairRDD的，根据key值来进行排序。ascending升序，默认为true，即升序；
       * numPartitions分区数
+      * 几乎所有带分区算子在Spark2.3及之后的官方文档中将原[numTasks]任务数参数改为了[numPartitions]分区数
       */
     pairRdd1.sortByKey(true, 5).collect().foreach(elem => print(elem + " "))
     pairRdd1.sortByKey(false, 5).collect().foreach(elem => print(elem + " "))
