@@ -3,12 +3,12 @@ package dataframe
 import org.apache.spark.SparkConf
 import org.apache.spark.sql.SparkSession
 
-class udfDemo2 {
+class UdfDemo2 {
 
 }
 
-object udfDemo2{
-  def apply: udfDemo2 = new udfDemo2()
+object UdfDemo2{
+  def apply: UdfDemo2 = new UdfDemo2()
 
   def main(args: Array[String]): Unit = {
     val conf = new SparkConf().setAppName("udf").setMaster("local[2]")
