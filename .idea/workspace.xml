@@ -4,6 +4,7 @@
     <list default="true" id="3cc0a24a-0d06-4caf-9c5f-09c6cff6f246" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/main/scala/dataframe/UdfDemo.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/streaming/WordCount.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/streaming/WordCount.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -52,16 +53,16 @@
         <counts>
           <entry key="dummy" value="4" />
           <entry key="java" value="120" />
-          <entry key="scala" value="4738" />
-          <entry key="txt" value="377" />
+          <entry key="scala" value="5094" />
+          <entry key="txt" value="421" />
           <entry key="xml" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="120" />
-          <entry key="PLAIN_TEXT" value="381" />
-          <entry key="Scala" value="4738" />
+          <entry key="PLAIN_TEXT" value="425" />
+          <entry key="Scala" value="5094" />
           <entry key="XML" value="11" />
         </counts>
       </usages-collector>
@@ -88,11 +89,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/streaming/WordCount.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1">
-              <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+            <state relative-caret-position="144">
+              <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
               <folding>
                 <element signature="e#19#52#0" expanded="true" />
               </folding>
@@ -100,11 +101,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/dataframe/UdfDemo.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+            <state relative-caret-position="259">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+              <folding>
+                <element signature="e#19#52#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -112,8 +116,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/dataframe/CreateDF.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="101">
+              <caret line="16" selection-start-line="16" selection-end-line="17" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -179,9 +183,9 @@
         <option value="$PROJECT_DIR$/src/main/scala/operator/O_takeOrdered.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/operator/O_countByKey.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/streaming/wordCount.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/streaming/WordCount.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/dataframe/CreateDF.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/dataframe/UdfDemo.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/streaming/WordCount.scala" />
       </list>
     </option>
   </component>
@@ -278,7 +282,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557555640996" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557557714261" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="ScalaTest" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.ScalaTest" value="org.scalatest.FunSuite" />
@@ -312,20 +316,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.O_countByKey">
-    <configuration name="O_cartesian" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="operator.O_cartesian" />
-      <module name="BgDataStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="operator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.UdfDemo">
     <configuration name="O_countByKey" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="operator.O_countByKey" />
       <module name="BgDataStudy" />
@@ -378,20 +369,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UdfDemo" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="dataframe.UdfDemo" />
+      <module name="BgDataStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dataframe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.O_cartesian" />
       <item itemvalue="Application.O_reduce" />
       <item itemvalue="Application.O_takeSample" />
       <item itemvalue="Application.O_takeOrdered" />
       <item itemvalue="Application.O_countByKey" />
+      <item itemvalue="Application.UdfDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UdfDemo" />
         <item itemvalue="Application.O_countByKey" />
         <item itemvalue="Application.O_takeOrdered" />
         <item itemvalue="Application.O_takeSample" />
         <item itemvalue="Application.O_reduce" />
-        <item itemvalue="Application.O_cartesian" />
       </list>
     </recent_temporary>
   </component>
@@ -416,7 +420,7 @@
       <workItem from="1557316599719" duration="2446000" />
       <workItem from="1557410773223" duration="3574000" />
       <workItem from="1557499162277" duration="2201000" />
-      <workItem from="1557540555283" duration="3910000" />
+      <workItem from="1557540555283" duration="5983000" />
     </task>
     <task id="LOCAL-00001" summary="git message">
       <created>1556377820844</created>
@@ -719,17 +723,38 @@
       <option name="project" value="LOCAL" />
       <updated>1557545455204</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="create DataFrame optimize">
+      <created>1557555773456</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1557555773456</updated>
+    </task>
+    <task id="LOCAL-00045" summary="streaming wordCount">
+      <created>1557557436174</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1557557436174</updated>
+    </task>
+    <task id="LOCAL-00046" summary="streaming wordCount">
+      <created>1557557498876</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1557557498876</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37205000" />
+    <option name="totallyTimeSpent" value="39278000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20121029" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20121029" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -739,7 +764,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.39244664" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39244664" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -750,7 +775,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32840723" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Thumbnails" order="12" weight="0.32840723" />
-      <window_info anchor="bottom" id="Messages" order="13" />
+      <window_info active="true" anchor="bottom" id="Messages" order="13" visible="true" weight="0.32840723" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -770,8 +795,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="FlatMap operator" />
-    <MESSAGE value="operator" />
     <MESSAGE value="mapPartition operator" />
     <MESSAGE value="mapPartitionsWithIndex operator" />
     <MESSAGE value="sample operator and union operator" />
@@ -795,7 +818,9 @@
     <MESSAGE value="takeOrdered operator" />
     <MESSAGE value="countByKey operator" />
     <MESSAGE value="the most sample sparkStreaming demo of world count" />
-    <option name="LAST_COMMIT_MESSAGE" value="the most sample sparkStreaming demo of world count" />
+    <MESSAGE value="create DataFrame optimize" />
+    <MESSAGE value="streaming wordCount" />
+    <option name="LAST_COMMIT_MESSAGE" value="streaming wordCount" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
@@ -1057,25 +1082,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/dataframe/CreateDF.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="101">
+          <caret line="16" selection-start-line="16" selection-end-line="17" selection-end-column="65" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/streaming/WordCount.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/dataframe/UdfDemo.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        <state relative-caret-position="259">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding>
             <element signature="e#19#52#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/dataframe/UdfDemo.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/streaming/WordCount.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        <state relative-caret-position="144">
+          <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+          <folding>
+            <element signature="e#19#52#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
