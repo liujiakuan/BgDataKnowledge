@@ -7,7 +7,7 @@ class O_countByKey {
 
 }
 
-object O_countByKey{
+object O_countByKey {
   def apply: O_countByKey = new O_countByKey()
 
   def main(args: Array[String]): Unit = {
@@ -20,5 +20,6 @@ object O_countByKey{
       * countByKey
       * 统计RDD[K,V]中每个K的数量，返回具有每个key的计数的（k，int）pairs的hashMap
       */
+    pairRdd1.countByKey().foreach(elem => print(elem + " "))
   }
 }
