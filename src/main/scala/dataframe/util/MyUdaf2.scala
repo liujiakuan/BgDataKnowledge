@@ -8,7 +8,7 @@ class MyUdaf2 {
 
 }
 
-object MyUdaf2 extends Aggregator{
+object MyUdaf2 extends Aggregator {
   override def zero: Nothing = ???
 
   override def reduce(b: Nothing, a: Any): Nothing = ???

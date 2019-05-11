@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cc0a24a-0d06-4caf-9c5f-09c6cff6f246" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/dataframe/UdafDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/dataframe/util/MyUdaf2.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/dataframe/UdafDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/dataframe/UdafDemo.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/dataframe/util/MyUdaf.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/dataframe/util/MyUdaf.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/dataframe/util/MyUdaf2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/dataframe/util/MyUdaf2.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -116,8 +116,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/dataframe/util/MyUdaf.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="89" lean-forward="true" selection-start-line="6" selection-start-column="89" selection-end-line="6" selection-end-column="89" />
+            <state relative-caret-position="125">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
               <folding>
                 <element signature="e#24#55#0" expanded="true" />
               </folding>
@@ -128,8 +128,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/dataframe/util/MyUdaf2.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="65">
+              <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
               <folding>
                 <element signature="e#24#59#0" expanded="true" />
               </folding>
@@ -140,8 +140,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/dataframe/UdafDemo.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-102">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="106">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
               <folding>
                 <element signature="e#19#47#0" expanded="true" />
               </folding>
@@ -216,8 +216,8 @@
         <option value="$PROJECT_DIR$/src/main/scala/dataframe/udfDemo2.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/dataframe/UdfDemo2.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/dataframe/util/MyUdaf2.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/dataframe/UdafDemo.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/dataframe/util/MyUdaf.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/dataframe/UdafDemo.scala" />
       </list>
     </option>
   </component>
@@ -314,7 +314,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557564721301" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557564934089" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="ScalaTest" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.ScalaTest" value="org.scalatest.FunSuite" />
@@ -452,14 +452,7 @@
       <workItem from="1557316599719" duration="2446000" />
       <workItem from="1557410773223" duration="3574000" />
       <workItem from="1557499162277" duration="2201000" />
-      <workItem from="1557540555283" duration="11986000" />
-    </task>
-    <task id="LOCAL-00004" summary="workspace.xml">
-      <created>1556797628085</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1556797628085</updated>
+      <workItem from="1557540555283" duration="12251000" />
     </task>
     <task id="LOCAL-00005" summary="delete the pdf">
       <created>1556797925079</created>
@@ -797,11 +790,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557562879887</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="udaf    extends UserDefinedAggregateFunction">
+      <created>1557564918121</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1557564918121</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45281000" />
+    <option name="totallyTimeSpent" value="45546000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1208,30 +1208,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/dataframe/UdafDemo.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#19#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/dataframe/util/MyUdaf2.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="65">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
           <folding>
             <element signature="e#24#59#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/dataframe/UdafDemo.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding>
+            <element signature="e#19#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/dataframe/util/MyUdaf.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="89" lean-forward="true" selection-start-line="6" selection-start-column="89" selection-end-line="6" selection-end-column="89" />
+        <state relative-caret-position="125">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
           <folding>
             <element signature="e#24#55#0" expanded="true" />
           </folding>
