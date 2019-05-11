@@ -12,7 +12,7 @@ object UdfDemo {
   def apply: UdfDemo = new UdfDemo()
 
   def main(args: Array[String]): Unit = {
-    val conf = new SparkConf().setAppName("createDataFrame").setMaster("local[2]")
+    val conf = new SparkConf().setAppName("udf").setMaster("local[2]")
     val spark = SparkSession.builder().config(conf).getOrCreate()
     val dfSeq = spark.createDataFrame(Seq(("ljk", 22), ("yky", 20), ("xxx", 18))) toDF("name", "age")
     //def 定义方法
