@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cc0a24a-0d06-4caf-9c5f-09c6cff6f246" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/grammar/Curry.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/dataframe/SecondSort.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -52,16 +52,16 @@
         <counts>
           <entry key="dummy" value="4" />
           <entry key="java" value="120" />
-          <entry key="scala" value="5944" />
-          <entry key="txt" value="462" />
+          <entry key="scala" value="6393" />
+          <entry key="txt" value="470" />
           <entry key="xml" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="120" />
-          <entry key="PLAIN_TEXT" value="466" />
-          <entry key="Scala" value="5944" />
+          <entry key="PLAIN_TEXT" value="474" />
+          <entry key="Scala" value="6393" />
           <entry key="XML" value="11" />
         </counts>
       </usages-collector>
@@ -69,7 +69,7 @@
         <counts>
           <entry key="class" value="2" />
           <entry key="java" value="3" />
-          <entry key="scala" value="37" />
+          <entry key="scala" value="38" />
           <entry key="xml" value="3" />
         </counts>
       </usages-collector>
@@ -77,7 +77,7 @@
         <counts>
           <entry key="CLASS" value="2" />
           <entry key="JAVA" value="3" />
-          <entry key="Scala" value="37" />
+          <entry key="Scala" value="38" />
           <entry key="XML" value="3" />
         </counts>
       </usages-collector>
@@ -105,8 +105,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/dataframe/UdfDemo.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="41" />
+            <state relative-caret-position="125">
+              <caret line="14" selection-start-line="14" selection-end-line="16" selection-end-column="101" />
+              <folding>
+                <element signature="e#19#52#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -123,11 +126,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/grammar/Curry.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+            <state relative-caret-position="167">
+              <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -135,10 +138,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/dataframe/UdafDemo.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            <state relative-caret-position="270">
+              <caret line="17" column="46" lean-forward="true" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
               <folding>
                 <element signature="e#19#47#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/dataframe/SecondSort.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+              <folding>
+                <element signature="e#19#52#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -216,6 +231,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/dataframe/Curry.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Curry.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/grammar/Curry.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/dataframe/SecondSort.scala" />
       </list>
     </option>
   </component>
@@ -282,6 +298,22 @@
               <item name="BgDataKnowledge" type="b2602c69:ProjectViewProjectNode" />
               <item name="BgDataKnowledge" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="dataframe" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BgDataKnowledge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BgDataKnowledge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="grammar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BgDataKnowledge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BgDataKnowledge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -296,7 +328,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557576333793" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557587465324" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="ScalaTest" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.ScalaTest" value="org.scalatest.FunSuite" />
@@ -336,7 +368,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Curry">
+  <component name="RunManager" selected="Application.SecondSort">
     <configuration name="Curry" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="grammar.Curry" />
       <module name="BgDataStudy" />
@@ -350,12 +382,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="O_countByKey" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="operator.O_countByKey" />
+    <configuration name="SecondSort" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="dataframe.SecondSort" />
       <module name="BgDataStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="operator.*" />
+          <option name="PATTERN" value="dataframe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -403,19 +435,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.O_countByKey" />
       <item itemvalue="Application.UdfDemo" />
       <item itemvalue="Application.udfDemo2" />
       <item itemvalue="Application.UdafDemo" />
       <item itemvalue="Application.Curry" />
+      <item itemvalue="Application.SecondSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SecondSort" />
         <item itemvalue="Application.Curry" />
         <item itemvalue="Application.UdafDemo" />
         <item itemvalue="Application.udfDemo2" />
         <item itemvalue="Application.UdfDemo" />
-        <item itemvalue="Application.O_countByKey" />
       </list>
     </recent_temporary>
   </component>
@@ -440,14 +472,7 @@
       <workItem from="1557316599719" duration="2446000" />
       <workItem from="1557410773223" duration="3574000" />
       <workItem from="1557499162277" duration="2201000" />
-      <workItem from="1557540555283" duration="13909000" />
-    </task>
-    <task id="LOCAL-00007" summary="map operator">
-      <created>1556968380586</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1556968380586</updated>
+      <workItem from="1557540555283" duration="18422000" />
     </task>
     <task id="LOCAL-00008" summary="map operator">
       <created>1556968420392</created>
@@ -785,11 +810,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557564972096</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="currying">
+      <created>1557576353525</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1557576353525</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47204000" />
+    <option name="totallyTimeSpent" value="51717000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -870,7 +902,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="intersection operator" />
     <MESSAGE value="distinct operator" />
     <MESSAGE value="groupByKey operator" />
     <MESSAGE value="reduceByKey operator" />
@@ -895,7 +926,8 @@
     <MESSAGE value="User Define Function Test" />
     <MESSAGE value="udaf    extends UserDefinedAggregateFunction" />
     <MESSAGE value="udaf    extends Aggregator" />
-    <option name="LAST_COMMIT_MESSAGE" value="udaf    extends Aggregator" />
+    <MESSAGE value="currying" />
+    <option name="LAST_COMMIT_MESSAGE" value="currying" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
@@ -1155,16 +1187,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/streaming/WordCount.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="15" column="53" lean-forward="true" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
-          <folding>
-            <element signature="e#19#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/dataframe/CreateDF.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -1186,23 +1208,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/dataframe/UdfDemo.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/dataframe/UdafDemo.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding>
-            <element signature="e#19#47#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1228,8 +1233,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/grammar/Curry.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+        <state relative-caret-position="167">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/dataframe/UdafDemo.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="17" column="46" lean-forward="true" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+          <folding>
+            <element signature="e#19#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/streaming/WordCount.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="15" column="53" lean-forward="true" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+          <folding>
+            <element signature="e#19#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/dataframe/UdfDemo.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="14" selection-start-line="14" selection-end-line="16" selection-end-column="101" />
+          <folding>
+            <element signature="e#19#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/dataframe/SecondSort.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="e#19#52#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
