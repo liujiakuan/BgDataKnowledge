@@ -11,11 +11,11 @@ public class TestStack {
 
     public static void main(String[] ljk) {
         TestStack testStack = new TestStack();
-        testStack.push(10);
-        testStack.push(20);
-        testStack.push(30);
+        testStack.pushStack(10);
+        testStack.pushStack(20);
+        testStack.pushStack(30);
         System.out.println(Arrays.toString(testStack.stack));
-        testStack.pop();
+        testStack.popStack();
         System.out.println(Arrays.toString(testStack.stack));
     }
 
@@ -24,7 +24,7 @@ public class TestStack {
     }
 
     //入栈
-    private void push(int value) {
+    private void pushStack(int value) {
         int[] newStack = new int[stack.length + 1];
         System.arraycopy(stack, 0, newStack, 0, stack.length);
         newStack[stack.length] = value;
@@ -32,7 +32,7 @@ public class TestStack {
     }
 
     //出栈
-    private void pop() {
+    private void popStack() {
         if (0 == stack.length) {
             logger.error("stack is null ,please don't to pop");
             return;
