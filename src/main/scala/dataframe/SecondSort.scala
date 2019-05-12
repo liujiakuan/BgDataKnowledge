@@ -33,10 +33,17 @@ object SecondSort {
 
     /**
       * 二次排序：先更具一个条件进行排序，在该条件有序的基础上在根据另外的条件排序
+      * ascending，排序方式，默认为true升序
+      * 方法一：继承Ordeed
+      * 方法二：使用SortBy
       */
-    //TODO 当前二次排序实现感觉有问题，提供一个思路，先根据指定列排序，在更具指定列分组后再排序  udf
-    dfSeq.rdd.collect().map(elem => {
-      (new SecondeSortKey(elem.getAs[Int](0), elem.getAs[Int](1)),elem)
-    }).foreach(elem => print(elem + " "))
+    //降序排序
+    dfSeq.rdd.map(elem => (elem.getAs[Int](0), elem.getAs[Int](1))).sortBy(x => x, ascending = false).foreach(println)
+    //按照第一列降序，第二列升序排列
+    dfSeq.rdd.map(elem => (elem.getAs[Int](0), elem.getAs[Int](1))).sortBy(x => x._1, ascending = false).sortBy(x => x._2, ascending = true).foreach(println)
+    //降序排列
+    dfSeq.rdd.map(elem => {
+      (new SecondeSortKey(elem.getAs[Int](0), elem.getAs[Int](1)), elem)
+    }).sortByKey(ascending = false).foreach(elem => println(elem._2))
   }
 }
