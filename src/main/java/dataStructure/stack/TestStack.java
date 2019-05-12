@@ -1,8 +1,11 @@
 package dataStructure.stack;
 
+import org.apache.log4j.Logger;
+
 import java.util.Arrays;
 
 public class TestStack {
+    private static Logger logger = Logger.getLogger(TestStack.class);
     //栈的底层，使用数组存储数据
     private int[] stack;
 
@@ -30,8 +33,12 @@ public class TestStack {
 
     //出栈
     private void pop() {
+        if (0 == stack.length) {
+            logger.error("stack is null ,please don't to pop");
+            return;
+        }
         int[] newStack = new int[stack.length - 1];
-        if (newStack.length >= 0) System.arraycopy(stack, 0, newStack, 0, newStack.length);
+        System.arraycopy(stack, 0, newStack, 0, newStack.length);
         stack = newStack;
     }
 }
