@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cc0a24a-0d06-4caf-9c5f-09c6cff6f246" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/sort/BubbleSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/dataframe/SecondSort.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/dataframe/SecondSort.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -52,24 +52,24 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="4" />
-          <entry key="java" value="120" />
-          <entry key="scala" value="6569" />
+          <entry key="java" value="467" />
+          <entry key="scala" value="6606" />
           <entry key="txt" value="481" />
           <entry key="xml" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="120" />
+          <entry key="JAVA" value="467" />
           <entry key="PLAIN_TEXT" value="485" />
-          <entry key="Scala" value="6569" />
+          <entry key="Scala" value="6606" />
           <entry key="XML" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
-          <entry key="java" value="3" />
+          <entry key="java" value="4" />
           <entry key="scala" value="38" />
           <entry key="xml" value="3" />
         </counts>
@@ -77,7 +77,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="3" />
+          <entry key="JAVA" value="4" />
           <entry key="Scala" value="38" />
           <entry key="XML" value="3" />
         </counts>
@@ -148,14 +148,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/dataframe/SecondSort.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+            <state relative-caret-position="231">
+              <caret line="31" column="29" lean-forward="true" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
               <folding>
                 <element signature="e#19#52#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sort/BubbleSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -233,6 +242,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/Curry.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/grammar/Curry.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/dataframe/SecondSort.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/sort/BubbleSort.java" />
       </list>
     </option>
   </component>
@@ -329,7 +339,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557630060634" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557651528409" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="ScalaTest" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.ScalaTest" value="org.scalatest.FunSuite" />
@@ -369,7 +379,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SecondSort">
+  <component name="RunManager" selected="Application.BubbleSort">
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sort.BubbleSort" />
+      <module name="BgDataStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Curry" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="grammar.Curry" />
       <module name="BgDataStudy" />
@@ -409,19 +432,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UdfDemo" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="dataframe.UdfDemo" />
-      <module name="BgDataStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="udfDemo2" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="dataframe.UdfDemo2" />
       <module name="BgDataStudy" />
@@ -436,19 +446,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.UdfDemo" />
       <item itemvalue="Application.udfDemo2" />
       <item itemvalue="Application.UdafDemo" />
       <item itemvalue="Application.Curry" />
       <item itemvalue="Application.SecondSort" />
+      <item itemvalue="Application.BubbleSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.SecondSort" />
         <item itemvalue="Application.Curry" />
         <item itemvalue="Application.UdafDemo" />
         <item itemvalue="Application.udfDemo2" />
-        <item itemvalue="Application.UdfDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -474,14 +484,7 @@
       <workItem from="1557410773223" duration="3574000" />
       <workItem from="1557499162277" duration="2201000" />
       <workItem from="1557540555283" duration="18507000" />
-      <workItem from="1557628321740" duration="1728000" />
-    </task>
-    <task id="LOCAL-00009" summary="Filter operator">
-      <created>1556971080980</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1556971080980</updated>
+      <workItem from="1557628321740" duration="5186000" />
     </task>
     <task id="LOCAL-00010" summary="FlatMap operator">
       <created>1556975070771</created>
@@ -819,11 +822,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557587483371</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="second sort">
+      <created>1557630173507</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1557630173508</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53530000" />
+    <option name="totallyTimeSpent" value="56988000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -839,7 +849,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39244664" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27750412" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1230,11 +1240,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/dataframe/SecondSort.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+        <state relative-caret-position="231">
+          <caret line="31" column="29" lean-forward="true" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
           <folding>
             <element signature="e#19#52#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sort/BubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
         </state>
       </provider>
     </entry>
