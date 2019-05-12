@@ -32,7 +32,7 @@ class Node {
     }
 
     //这里实现链表头部删除方法，     尾部删除、指定位置删除不定时补充，思路比较简单
-    Node deleteNode(){
+    Node deleteNode() {
         return this.nextNode();
     }
 
@@ -59,6 +59,6 @@ public class TestLinkedList {
         System.out.println(nodeAppend.getData() + nodeAppend.nextNode().getData() + nodeAppend.nexeNode.nextNode().getData());
         //删除结点数据
         Node nodeDelete = nodeAppend.deleteNode();
-        System.out.println(nodeDelete.getData()+nodeDelete.nextNode().getData());
+        System.out.println(nodeDelete.getData() + nodeDelete.nextNode().getData());
     }
 }
