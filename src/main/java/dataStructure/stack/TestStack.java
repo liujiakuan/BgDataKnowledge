@@ -6,7 +6,7 @@ import java.util.Arrays;
 
 public class TestStack {
     private static Logger logger = Logger.getLogger(TestStack.class);
-    //栈的底层，使用数组存储数据
+    //栈的底层，这里使用数组存储数据模拟栈底层存储
     private int[] stack;
 
     public static void main(String[] ljk) {
