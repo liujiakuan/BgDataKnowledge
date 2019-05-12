@@ -4,6 +4,9 @@ import org.apache.log4j.Logger;
 
 import java.util.Arrays;
 
+/**
+ * 栈，先进后出
+ */
 public class TestStack {
     private static Logger logger = Logger.getLogger(TestStack.class);
     //栈，这里使用数组存储数据模拟栈底层存储
