@@ -28,8 +28,8 @@ object CreateDF {
     val dfSeq = spark.createDataFrame(Seq(("ljk", 22), ("yky", 20), ("xxx", "18"))) toDF("name", "age")
     //通过Schema创建DataFrame
     val schema = types.StructType(List(
-      StructField("name", StringType, true),
-      StructField("age", IntegerType, true)
+      StructField("name", StringType, nullable = true),
+      StructField("age", IntegerType, nullable = true)
     ))
     val valueList = new util.ArrayList[Row]()
     valueList.add(Row("ljk", 22))
