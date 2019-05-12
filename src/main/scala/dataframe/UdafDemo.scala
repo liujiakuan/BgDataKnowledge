@@ -1,6 +1,6 @@
 package dataframe
 
-import dataframe.util.MyUdaf
+import dataframe.scalaUtil.MyUdaf
 import org.apache.spark.SparkConf
 import org.apache.spark.sql.SparkSession
 
