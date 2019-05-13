@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cc0a24a-0d06-4caf-9c5f-09c6cff6f246" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dataStructure/recursion/Febonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dataStructure/recursion/Hanoi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -52,17 +52,17 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="4" />
-          <entry key="java" value="3454" />
+          <entry key="java" value="3875" />
           <entry key="properties" value="12" />
           <entry key="scala" value="6636" />
-          <entry key="txt" value="576" />
+          <entry key="txt" value="585" />
           <entry key="xml" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3454" />
-          <entry key="PLAIN_TEXT" value="580" />
+          <entry key="JAVA" value="3875" />
+          <entry key="PLAIN_TEXT" value="589" />
           <entry key="Properties" value="12" />
           <entry key="Scala" value="6636" />
           <entry key="XML" value="14" />
@@ -71,7 +71,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
-          <entry key="java" value="10" />
+          <entry key="java" value="11" />
           <entry key="properties" value="1" />
           <entry key="scala" value="42" />
           <entry key="xml" value="5" />
@@ -80,7 +80,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="10" />
+          <entry key="JAVA" value="11" />
           <entry key="Properties" value="1" />
           <entry key="Scala" value="42" />
           <entry key="XML" value="5" />
@@ -177,14 +177,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dataStructure/recursion/Febonacci.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="125">
-              <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+              <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
-                <element signature="e#100#101#0" expanded="true" />
-                <element signature="e#121#122#0" expanded="true" />
+                <element signature="e#101#102#0" expanded="true" />
+                <element signature="e#170#171#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dataStructure/recursion/Hanoi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="146">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="e#97#98#0" expanded="true" />
+                <element signature="e#130#131#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -226,7 +239,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/scala/TestScala.scala" />
         <option value="$PROJECT_DIR$/src/test/java/TestTestJava.java" />
         <option value="$PROJECT_DIR$/src/test/scala/TestScalaTest.scala" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -277,6 +289,7 @@
         <option value="$PROJECT_DIR$/src/main/java/dataStructure/linkedList/TestLinkedList.java" />
         <option value="$PROJECT_DIR$/src/main/java/dataStructure/recursion/Febonacci.scala" />
         <option value="$PROJECT_DIR$/src/main/java/dataStructure/recursion/Febonacci.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dataStructure/recursion/Hanoi.java" />
       </list>
     </option>
   </component>
@@ -437,7 +450,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557753552314" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557757182812" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="ScalaTest" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.ScalaTest" value="org.scalatest.FunSuite" />
@@ -477,7 +490,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Febonacci">
+  <component name="RunManager" selected="Application.Hanoi">
     <configuration name="Febonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dataStructure.recursion.Febonacci" />
       <module name="BgDataStudy" />
@@ -491,12 +504,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructure.array.TestArray" />
+    <configuration name="Hanoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructure.recursion.Hanoi" />
       <module name="BgDataStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructure.array.*" />
+          <option name="PATTERN" value="dataStructure.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -544,19 +557,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestArray" />
       <item itemvalue="Application.TestStack" />
       <item itemvalue="Application.TestQueue" />
       <item itemvalue="Application.TestLinkedList" />
       <item itemvalue="Application.Febonacci" />
+      <item itemvalue="Application.Hanoi" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Hanoi" />
         <item itemvalue="Application.Febonacci" />
         <item itemvalue="Application.TestLinkedList" />
         <item itemvalue="Application.TestQueue" />
         <item itemvalue="Application.TestStack" />
-        <item itemvalue="Application.TestArray" />
       </list>
     </recent_temporary>
   </component>
@@ -583,14 +596,7 @@
       <workItem from="1557499162277" duration="2201000" />
       <workItem from="1557540555283" duration="18507000" />
       <workItem from="1557628321740" duration="17675000" />
-      <workItem from="1557752116451" duration="1350000" />
-    </task>
-    <task id="LOCAL-00026" summary="cogroup operator">
-      <created>1557321670598</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1557321670598</updated>
+      <workItem from="1557752116451" duration="3125000" />
     </task>
     <task id="LOCAL-00027" summary="cartesian operator">
       <created>1557411164894</created>
@@ -928,17 +934,24 @@
       <option name="project" value="LOCAL" />
       <updated>1557673804994</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="Febonacci">
+      <created>1557753643302</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1557753643307</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70827000" />
+    <option name="totallyTimeSpent" value="72602000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20726173" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20726173" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -948,7 +961,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3908046" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3908046" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1013,7 +1026,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="pipe operator" />
     <MESSAGE value="coalesce repartition operator" />
     <MESSAGE value="几乎所有带分区算子在Spark2.3及之后的官方文档中将原[numTasks]任务数参数改为了[numPartitions]分区数" />
     <MESSAGE value="sortByKey code structure optimizing" />
@@ -1038,16 +1050,10 @@
     <MESSAGE value="java stack" />
     <MESSAGE value="java queue" />
     <MESSAGE value="java linkedList" />
-    <option name="LAST_COMMIT_MESSAGE" value="java linkedList" />
+    <MESSAGE value="Febonacci" />
+    <option name="LAST_COMMIT_MESSAGE" value="Febonacci" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="47" lean-forward="true" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/hydra.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -1416,10 +1422,21 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/dataStructure/recursion/Febonacci.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
-          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
-            <element signature="e#100#101#0" expanded="true" />
-            <element signature="e#121#122#0" expanded="true" />
+            <element signature="e#101#102#0" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dataStructure/recursion/Hanoi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#97#98#0" expanded="true" />
+            <element signature="e#130#131#0" expanded="true" />
           </folding>
         </state>
       </provider>
