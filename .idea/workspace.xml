@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cc0a24a-0d06-4caf-9c5f-09c6cff6f246" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dataStructure/tree/binaryTree/TestBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dataStructure/tree/binaryTree/TreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dataStructure/tree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructure/tree/binaryTree/BinaryTree.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -54,19 +57,19 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="4" />
-          <entry key="java" value="4478" />
+          <entry key="java" value="4813" />
           <entry key="md" value="28" />
           <entry key="properties" value="12" />
           <entry key="scala" value="6926" />
-          <entry key="txt" value="686" />
+          <entry key="txt" value="701" />
           <entry key="xml" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4478" />
+          <entry key="JAVA" value="4813" />
           <entry key="Markdown" value="28" />
-          <entry key="PLAIN_TEXT" value="690" />
+          <entry key="PLAIN_TEXT" value="705" />
           <entry key="Properties" value="12" />
           <entry key="Scala" value="6926" />
           <entry key="XML" value="14" />
@@ -75,7 +78,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
-          <entry key="java" value="12" />
+          <entry key="java" value="15" />
           <entry key="md" value="1" />
           <entry key="properties" value="1" />
           <entry key="scala" value="44" />
@@ -86,7 +89,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="12" />
+          <entry key="JAVA" value="15" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="1" />
@@ -112,7 +115,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/streaming/WordCount.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="59">
@@ -136,6 +139,49 @@
               <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
               <folding>
                 <element signature="e#19#53#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dataStructure/tree/binaryTree/BinaryTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+              <folding>
+                <element signature="e#143#144#0" expanded="true" />
+                <element signature="e#125#126#0" expanded="true" />
+                <element signature="e#157#158#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dataStructure/tree/binaryTree/TestBinaryTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dataStructure/tree/binaryTree/TreeNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+              <folding>
+                <element signature="e#182#183#0" expanded="true" />
+                <element signature="e#216#217#0" expanded="true" />
+                <element signature="e#291#292#0" expanded="true" />
+                <element signature="e#341#342#0" expanded="true" />
+                <element signature="e#381#382#0" expanded="true" />
+                <element signature="e#419#420#0" expanded="true" />
+                <element signature="e#451#452#0" expanded="true" />
+                <element signature="e#503#504#0" expanded="true" />
+                <element signature="e#545#546#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -177,10 +223,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/scala/operator/O_Map.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/operator/O_Filter.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/operator/O_MapPartitions.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/operator/O_FlatMap.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/operator/O_MapPartitionsWithIndex.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/operator/O_Sample.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/operator/O_Union.scala" />
@@ -228,6 +270,10 @@
         <option value="$PROJECT_DIR$/src/main/scala/streaming/data.txt" />
         <option value="$PROJECT_DIR$/src/main/scala/streaming/WriteData.scala" />
         <option value="$PROJECT_DIR$/src/main/java/sort/QuickSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dataStructure/tree/BinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dataStructure/tree/binaryTree/BinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dataStructure/tree/binaryTree/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dataStructure/tree/binaryTree/TestBinaryTree.java" />
       </list>
     </option>
   </component>
@@ -353,6 +399,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dataStructure" type="462c0819:PsiDirectoryNode" />
+              <item name="binaryTree" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BgDataKnowledge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BgDataKnowledge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="sort" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -413,7 +468,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558191185795" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558192832548" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="ScalaTest" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.ScalaTest" value="org.scalatest.FunSuite" />
@@ -563,21 +618,7 @@
       <workItem from="1557844364543" duration="891000" />
       <workItem from="1557929779029" duration="3002000" />
       <workItem from="1558099352180" duration="3885000" />
-      <workItem from="1558184791829" duration="3600000" />
-    </task>
-    <task id="LOCAL-00032" summary="reduce operator">
-      <created>1557500812001</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1557500812001</updated>
-    </task>
-    <task id="LOCAL-00033" summary="几乎所有带分区算子在Spark2.3及之后的官方文档中将原[numTasks]任务数参数改为了[numPartitions]分区数">
-      <created>1557500939810</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1557500939810</updated>
+      <workItem from="1558184791829" duration="5218000" />
     </task>
     <task id="LOCAL-00034" summary="sortByKey code structure optimizing">
       <created>1557501002517</created>
@@ -908,11 +949,25 @@
       <option name="project" value="LOCAL" />
       <updated>1558105569864</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="tree">
+      <created>1558191199919</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1558191199922</updated>
+    </task>
+    <task id="LOCAL-00082" summary="Binary Tree">
+      <created>1558191881499</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1558191881502</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84370000" />
+    <option name="totallyTimeSpent" value="85988000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -993,8 +1048,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="reduce operator" />
-    <MESSAGE value="takeSample operator" />
     <MESSAGE value="takeOrdered operator" />
     <MESSAGE value="countByKey operator" />
     <MESSAGE value="the most sample sparkStreaming demo of world count" />
@@ -1018,7 +1071,9 @@
     <MESSAGE value="README.md" />
     <MESSAGE value="SparkStreaming  test demo。have some bugs waiting for solving" />
     <MESSAGE value="Quick Sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="Quick Sort" />
+    <MESSAGE value="tree" />
+    <MESSAGE value="Binary Tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="Binary Tree" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
@@ -1030,21 +1085,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/operator/O_Map.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/TestScala.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" selection-start-column="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/operator/O_Map.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="37" column="39" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/operator/O_Filter.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
@@ -1377,6 +1417,43 @@
           <folding>
             <element signature="e#19#52#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dataStructure/tree/binaryTree/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding>
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#545#546#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dataStructure/tree/binaryTree/BinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+          <folding>
+            <element signature="e#143#144#0" expanded="true" />
+            <element signature="e#125#126#0" expanded="true" />
+            <element signature="e#157#158#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dataStructure/tree/binaryTree/TestBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
         </state>
       </provider>
     </entry>
