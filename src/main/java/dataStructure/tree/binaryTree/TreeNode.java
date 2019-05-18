@@ -2,13 +2,13 @@ package dataStructure.tree.binaryTree;
 
 public class TreeNode {
     //结点的权
-    int value;
+    private int value;
     //左儿子
-    TreeNode leftNode;
+    private TreeNode leftNode;
     //右儿子
-    TreeNode rightNode;
+    private TreeNode rightNode;
 
-    public TreeNode(int value) {
+    TreeNode(int value) {
         this.value = value;
     }
 
@@ -16,7 +16,7 @@ public class TreeNode {
         return leftNode;
     }
 
-    public void setLeftNode(TreeNode leftNode) {
+    void setLeftNode(TreeNode leftNode) {
         this.leftNode = leftNode;
     }
 
@@ -24,7 +24,7 @@ public class TreeNode {
         return rightNode;
     }
 
-    public void setRightNode(TreeNode rightNode) {
+    void setRightNode(TreeNode rightNode) {
         this.rightNode = rightNode;
     }
 }
