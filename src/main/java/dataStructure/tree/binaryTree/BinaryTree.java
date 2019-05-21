@@ -12,4 +12,19 @@ public class BinaryTree {
     void setRoot(TreeNode root) {
         this.root = root;
     }
+
+    //前序遍历
+    void frontSort() {
+        root.frontSort();
+    }
+
+    //中序遍历
+    void midSort() {
+        root.midSort();
+    }
+
+    //后序遍历
+    void afterSort() {
+        root.afterSort();
+    }
 }

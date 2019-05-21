@@ -27,4 +27,40 @@ public class TreeNode {
     void setRightNode(TreeNode rightNode) {
         this.rightNode = rightNode;
     }
+
+    //前序遍历
+    void frontSort() {
+        //先输出当前结点
+        System.out.print(value + " ");
+        //输出左节点
+        if (leftNode != null) {
+            leftNode.frontSort();
+        }
+        //输出右节点
+        if (rightNode != null) {
+            rightNode.frontSort();
+        }
+    }
+
+    //中序遍历
+    void midSort() {
+        if (leftNode != null) {
+            leftNode.midSort();
+        }
+        System.out.print(value + " ");
+        if (rightNode != null) {
+            rightNode.midSort();
+        }
+    }
+
+    //后序遍历
+    void afterSort() {
+        if (leftNode != null) {
+            leftNode.afterSort();
+        }
+        if (rightNode != null) {
+            rightNode.afterSort();
+        }
+        System.out.print(value + " ");
+    }
 }
