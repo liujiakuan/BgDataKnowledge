@@ -20,12 +20,15 @@ public class TestBinaryTree {
         rootRightNode.setRightNode(new TreeNode(7));
 
         //前序遍历
+        System.out.println("前序遍历:");
         binaryTree.frontSort();
-        System.out.println("========================");
+        System.out.println();
         //中序遍历
+        System.out.println("中序遍历:");
         binaryTree.midSort();
-        System.out.println("========================");
+        System.out.println();
         //后序遍历
+        System.out.println("后序遍历:");
         binaryTree.afterSort();
 
     }
