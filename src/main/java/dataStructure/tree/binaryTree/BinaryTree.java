@@ -29,7 +29,7 @@ public class BinaryTree {
     }
 
     //前序查找
-    TreeNode frontSearch(int value){
+    TreeNode frontSearch(int value) {
         return root.frontSearch(value);
     }
 }
