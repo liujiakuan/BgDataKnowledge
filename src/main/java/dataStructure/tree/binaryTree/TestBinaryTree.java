@@ -30,6 +30,12 @@ public class TestBinaryTree {
         //后序遍历
         System.out.println("后序遍历:");
         binaryTree.afterSort();
+        System.out.println();
+        //前序查找
+        System.out.println("前序查找:");
+        TreeNode result = binaryTree.frontSearch(5);
+        System.out.println(result.getValue());
+        System.out.println();
 
     }
 }

@@ -12,6 +12,14 @@ public class TreeNode {
         this.value = value;
     }
 
+    public int getValue() {
+        return value;
+    }
+
+    public void setValue(int value) {
+        this.value = value;
+    }
+
     public TreeNode getLeftNode() {
         return leftNode;
     }
@@ -62,5 +70,28 @@ public class TreeNode {
             rightNode.afterSort();
         }
         System.out.print(value + " ");
+    }
+
+    //前序查找
+    TreeNode frontSearch(int value) {
+        TreeNode target = null;
+        //对比当前结点
+        if (this.value == value) {
+            return this;
+        } else {
+            //查找左节点，查不到target还是null
+            if (leftNode != null) {
+                target = leftNode.frontSearch(value);
+            }
+            //如果不为null，说明已经查找到
+            if (target != null) {
+                return target;
+            }
+            //查找右节点
+            if (rightNode != null) {
+                target = rightNode.frontSearch(value);
+            }
+        }
+        return target;
     }
 }

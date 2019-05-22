@@ -27,4 +27,9 @@ public class BinaryTree {
     void afterSort() {
         root.afterSort();
     }
+
+    //前序查找
+    TreeNode frontSearch(int value){
+        return root.frontSearch(value);
+    }
 }
