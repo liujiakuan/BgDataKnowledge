@@ -96,7 +96,7 @@ public class TreeNode {
     }
 
     //删除子树
-    public void delete(int value) {
+    void delete(int value) {
         TreeNode parent = this;
         //判断左结点
         if (parent.leftNode != null && parent.leftNode.getValue() == value) {
