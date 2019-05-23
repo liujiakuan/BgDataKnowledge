@@ -94,4 +94,28 @@ public class TreeNode {
         }
         return target;
     }
+
+    //删除子树
+    public void delete(int value) {
+        TreeNode parent = this;
+        //判断左结点
+        if (parent.leftNode != null && parent.leftNode.getValue() == value) {
+            parent.leftNode = null;
+            return;
+        }
+        //判断右节点
+        if (parent.rightNode != null && parent.rightNode.getValue() == value) {
+            parent.rightNode = null;
+            return;
+        }
+        //递归判断左右结点，并且删除指定数据
+        parent = leftNode;
+        if (parent != null) {
+            parent.delete(value);
+        }
+        parent = rightNode;
+        if (parent != null) {
+            parent.delete(value);
+        }
+    }
 }
