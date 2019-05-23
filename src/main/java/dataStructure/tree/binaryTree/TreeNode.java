@@ -24,7 +24,7 @@ public class TreeNode {
         return leftNode;
     }
 
-    void setLeftNode(TreeNode leftNode) {
+    public void setLeftNode(TreeNode leftNode) {
         this.leftNode = leftNode;
     }
 
@@ -32,7 +32,7 @@ public class TreeNode {
         return rightNode;
     }
 
-    void setRightNode(TreeNode rightNode) {
+    public void setRightNode(TreeNode rightNode) {
         this.rightNode = rightNode;
     }
 
