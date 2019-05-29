@@ -36,6 +36,12 @@ public class TestBinaryTree {
         TreeNode result = binaryTree.frontSearch(5);
         System.out.println(result.getValue());
         System.out.println();
+        //删除一个子树
+        System.out.println("删除一个指定结点:");
+        binaryTree.delete(3);
+        binaryTree.frontSort();
+        System.out.println();
+
 
     }
 }

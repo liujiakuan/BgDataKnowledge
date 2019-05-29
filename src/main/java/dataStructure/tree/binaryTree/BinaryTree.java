@@ -32,4 +32,13 @@ public class BinaryTree {
     TreeNode frontSearch(int value) {
         return root.frontSearch(value);
     }
+
+    //删除一个子树
+    void delete(int value) {
+        if (root.getValue() == value) {
+            root = null;
+        } else {
+            root.delete(value);
+        }
+    }
 }

@@ -24,7 +24,7 @@ public class TreeNode {
         return leftNode;
     }
 
-    void setLeftNode(TreeNode leftNode) {
+    public void setLeftNode(TreeNode leftNode) {
         this.leftNode = leftNode;
     }
 
@@ -32,7 +32,7 @@ public class TreeNode {
         return rightNode;
     }
 
-    void setRightNode(TreeNode rightNode) {
+    public void setRightNode(TreeNode rightNode) {
         this.rightNode = rightNode;
     }
 
@@ -93,5 +93,29 @@ public class TreeNode {
             }
         }
         return target;
+    }
+
+    //删除子树
+    void delete(int value) {
+        TreeNode parent = this;
+        //判断左结点
+        if (parent.leftNode != null && parent.leftNode.getValue() == value) {
+            parent.leftNode = null;
+            return;
+        }
+        //判断右节点
+        if (parent.rightNode != null && parent.rightNode.getValue() == value) {
+            parent.rightNode = null;
+            return;
+        }
+        //递归判断左右结点，并且删除指定数据
+        parent = leftNode;
+        if (parent != null) {
+            parent.delete(value);
+        }
+        parent = rightNode;
+        if (parent != null) {
+            parent.delete(value);
+        }
     }
 }
