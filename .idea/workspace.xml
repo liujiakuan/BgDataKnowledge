@@ -34,13 +34,13 @@
     <session id="-1536785481">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="24" />
+          <entry key="project.closed" value="25" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.43" value="1" />
           <entry key="project.open.time.44" value="2" />
           <entry key="project.open.time.48" value="1" />
           <entry key="project.open.time.49" value="1" />
-          <entry key="project.open.time.58" value="3" />
+          <entry key="project.open.time.58" value="4" />
           <entry key="project.open.time.59" value="3" />
           <entry key="project.open.time.60" value="2" />
           <entry key="project.open.time.61" value="2" />
@@ -52,7 +52,7 @@
           <entry key="project.open.time.71" value="1" />
           <entry key="project.open.time.78" value="1" />
           <entry key="project.open.time.88" value="1" />
-          <entry key="project.opened" value="25" />
+          <entry key="project.opened" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -62,7 +62,7 @@
           <entry key="md" value="28" />
           <entry key="properties" value="12" />
           <entry key="scala" value="7011" />
-          <entry key="txt" value="836" />
+          <entry key="txt" value="848" />
           <entry key="xml" value="14" />
         </counts>
       </usages-collector>
@@ -70,7 +70,7 @@
         <counts>
           <entry key="JAVA" value="6036" />
           <entry key="Markdown" value="28" />
-          <entry key="PLAIN_TEXT" value="840" />
+          <entry key="PLAIN_TEXT" value="852" />
           <entry key="Properties" value="12" />
           <entry key="Scala" value="7011" />
           <entry key="XML" value="14" />
@@ -187,8 +187,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/dataStructure/tree/binaryTree/TreeNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="400">
+              <caret line="44" column="33" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
               <folding>
                 <element signature="e#269#270#0" expanded="true" />
                 <element signature="e#297#298#0" expanded="true" />
@@ -328,7 +328,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -491,14 +493,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558862202654" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558870893207" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="ScalaTest" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.ScalaTest" value="org.scalatest.FunSuite" />
@@ -657,14 +657,8 @@
       <workItem from="1558621474345" duration="1963000" />
       <workItem from="1558705229280" duration="591000" />
       <workItem from="1558781833991" duration="1419000" />
-      <workItem from="1558857971186" duration="1350000" />
-    </task>
-    <task id="LOCAL-00050" summary="User Define Function Test">
-      <created>1557559272617</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1557559272618</updated>
+      <workItem from="1558857971186" duration="3577000" />
+      <workItem from="1559130203663" duration="245000" />
     </task>
     <task id="LOCAL-00051" summary="User Define Function Test">
       <created>1557559292818</created>
@@ -1002,17 +996,24 @@
       <option name="project" value="LOCAL" />
       <updated>1558860850061</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="Huffman Code">
+      <created>1558862243716</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1558862243716</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103907000" />
+    <option name="totallyTimeSpent" value="106379000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2473525" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25113463" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1087,7 +1088,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="udaf    extends UserDefinedAggregateFunction" />
     <MESSAGE value="udaf    extends Aggregator" />
     <MESSAGE value="currying" />
     <MESSAGE value="second sort" />
@@ -1112,7 +1112,8 @@
     <MESSAGE value="sort binary tree" />
     <MESSAGE value="Huffman Tree" />
     <MESSAGE value="Thread Binary Tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="Thread Binary Tree" />
+    <MESSAGE value="Huffman Code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Huffman Code" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
@@ -1475,8 +1476,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dataStructure/tree/binaryTree/TreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="400">
+          <caret line="44" column="33" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
           <folding>
             <element signature="e#269#270#0" expanded="true" />
             <element signature="e#297#298#0" expanded="true" />
