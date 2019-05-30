@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cc0a24a-0d06-4caf-9c5f-09c6cff6f246" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dataStructure/map/People.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dataStructure/map/TestMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dataStructure/map/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructure/map/People.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dataStructure/map/TestMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructure/map/TestMap.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -61,19 +61,19 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="4" />
-          <entry key="java" value="6409" />
+          <entry key="java" value="6653" />
           <entry key="md" value="28" />
           <entry key="properties" value="12" />
           <entry key="scala" value="7011" />
-          <entry key="txt" value="888" />
+          <entry key="txt" value="895" />
           <entry key="xml" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6409" />
+          <entry key="JAVA" value="6653" />
           <entry key="Markdown" value="28" />
-          <entry key="PLAIN_TEXT" value="892" />
+          <entry key="PLAIN_TEXT" value="899" />
           <entry key="Properties" value="12" />
           <entry key="Scala" value="7011" />
           <entry key="XML" value="14" />
@@ -205,13 +205,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/dataStructure/map/TestMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+            <state relative-caret-position="50">
+              <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
               <folding>
-                <element signature="e#659#660#0" expanded="true" />
-                <element signature="e#696#697#0" expanded="true" />
-                <element signature="e#351#352#0" expanded="true" />
-                <element signature="e#383#384#0" expanded="true" />
+                <element signature="e#827#828#0" expanded="true" />
+                <element signature="e#859#860#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -220,8 +218,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dataStructure/map/People.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+            <state relative-caret-position="125">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
               <folding>
                 <element signature="e#125#126#0" expanded="true" />
                 <element signature="e#152#153#0" expanded="true" />
@@ -544,7 +542,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559228057619" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559230496874" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="ScalaTest" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.ScalaTest" value="org.scalatest.FunSuite" />
@@ -585,20 +583,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestBinaryTree">
-    <configuration name="Hanoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructure.recursion.Hanoi" />
-      <module name="BgDataStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dataStructure.recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TestMap">
     <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sort.QuickSort" />
       <module name="BgDataStudy" />
@@ -618,6 +603,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="dataStructure.tree.binaryTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructure.map.TestMap" />
+      <module name="BgDataStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dataStructure.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -652,19 +650,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Hanoi" />
       <item itemvalue="Application.WriteData" />
       <item itemvalue="Application.WordCount" />
       <item itemvalue="Application.QuickSort" />
       <item itemvalue="Application.TestBinaryTree" />
+      <item itemvalue="Application.TestMap" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestMap" />
         <item itemvalue="Application.TestBinaryTree" />
         <item itemvalue="Application.WordCount" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.WriteData" />
-        <item itemvalue="Application.Hanoi" />
       </list>
     </recent_temporary>
   </component>
@@ -705,14 +703,7 @@
       <workItem from="1558781833991" duration="1419000" />
       <workItem from="1558857971186" duration="3577000" />
       <workItem from="1559130203663" duration="2322000" />
-      <workItem from="1559226974485" duration="1942000" />
-    </task>
-    <task id="LOCAL-00052" summary="udaf    extends UserDefinedAggregateFunction">
-      <created>1557562879887</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1557562879887</updated>
+      <workItem from="1559226974485" duration="3614000" />
     </task>
     <task id="LOCAL-00053" summary="udaf    extends UserDefinedAggregateFunction">
       <created>1557564918121</created>
@@ -1050,17 +1041,24 @@
       <option name="project" value="LOCAL" />
       <updated>1559130720938</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="HashMap">
+      <created>1559228945385</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1559228945386</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110398000" />
+    <option name="totallyTimeSpent" value="112070000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2549168" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2549168" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1070,7 +1068,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4039409" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4039409" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39901477" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1135,7 +1133,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="currying" />
     <MESSAGE value="second sort" />
     <MESSAGE value="Bubble sort" />
     <MESSAGE value="add log4j" />
@@ -1160,7 +1157,8 @@
     <MESSAGE value="Thread Binary Tree" />
     <MESSAGE value="Huffman Code" />
     <MESSAGE value="AVL BinaryTree Base on SortBinaryTree" />
-    <option name="LAST_COMMIT_MESSAGE" value="AVL BinaryTree Base on SortBinaryTree" />
+    <MESSAGE value="HashMap" />
+    <option name="LAST_COMMIT_MESSAGE" value="HashMap" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
@@ -1522,8 +1520,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dataStructure/map/People.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        <state relative-caret-position="125">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
           <folding>
             <element signature="e#125#126#0" expanded="true" />
             <element signature="e#152#153#0" expanded="true" />
@@ -1539,13 +1537,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dataStructure/map/TestMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        <state relative-caret-position="50">
+          <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
           <folding>
-            <element signature="e#659#660#0" expanded="true" />
-            <element signature="e#696#697#0" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#827#828#0" expanded="true" />
+            <element signature="e#859#860#0" expanded="true" />
           </folding>
         </state>
       </provider>
