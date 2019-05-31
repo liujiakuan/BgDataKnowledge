@@ -12,3 +12,20 @@ class TestImplicit {
     * 隐式视图：用于类型间转换或使针对某类型的方法能调用成功
     */
 }
+
+object TestImplicit {
+  def apply: TestImplicit = new TestImplicit()
+
+
+  def main(args: Array[String]): Unit = {
+    //如果没有定义implicit name，则如下调用会报错
+    TestImplicit.person
+  }
+
+  //隐式参数
+  implicit var name: String = "ljk"
+
+  def person(implicit name: String): Unit = {
+    System.out.print(name)
+  }
+}

@@ -63,7 +63,7 @@
           <entry key="java" value="6653" />
           <entry key="md" value="28" />
           <entry key="properties" value="12" />
-          <entry key="scala" value="7031" />
+          <entry key="scala" value="7125" />
           <entry key="txt" value="910" />
           <entry key="xml" value="14" />
         </counts>
@@ -74,7 +74,7 @@
           <entry key="Markdown" value="28" />
           <entry key="PLAIN_TEXT" value="914" />
           <entry key="Properties" value="12" />
-          <entry key="Scala" value="7031" />
+          <entry key="Scala" value="7125" />
           <entry key="XML" value="14" />
         </counts>
       </usages-collector>
@@ -213,8 +213,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/grammar/implicit/TestImplicit.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+            <state relative-caret-position="350">
+              <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -536,7 +536,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559314742404" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559315644768" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="ScalaTest" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.ScalaTest" value="org.scalatest.FunSuite" />
@@ -698,14 +698,7 @@
       <workItem from="1558857971186" duration="3577000" />
       <workItem from="1559130203663" duration="2322000" />
       <workItem from="1559226974485" duration="3710000" />
-      <workItem from="1559312662498" duration="1701000" />
-    </task>
-    <task id="LOCAL-00055" summary="udaf    extends Aggregator">
-      <created>1557564972096</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1557564972096</updated>
+      <workItem from="1559312662498" duration="2553000" />
     </task>
     <task id="LOCAL-00056" summary="currying">
       <created>1557576353525</created>
@@ -1043,11 +1036,18 @@
       <option name="project" value="LOCAL" />
       <updated>1559314631458</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="Scala Implicit">
+      <created>1559314760666</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1559314760666</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113867000" />
+    <option name="totallyTimeSpent" value="114719000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
@@ -1522,8 +1522,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/grammar/implicit/TestImplicit.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        <state relative-caret-position="350">
+          <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
         </state>
       </provider>
     </entry>
