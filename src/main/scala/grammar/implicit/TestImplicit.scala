@@ -39,9 +39,12 @@ object TestImplicit {
   }
 
   //隐式视图
-  implicit def stringToInt(ageString:Int): String = ageString.toString
+  implicit def stringToInt(ageString: Int): String = ageString.toString
+
   def printAge(age: String): Unit = {
     System.out.print(age)
   }
+
+  //TODO 隐式类
 
 }
