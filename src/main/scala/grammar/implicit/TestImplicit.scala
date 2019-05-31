@@ -24,8 +24,11 @@ object TestImplicit {
 
 
   def main(args: Array[String]): Unit = {
-    //如果没有定义implicit name，则如下调用会报错
+    //测试隐式参数如果没有定义implicit name，则如下调用会报错
     TestImplicit.person
+    //测试隐式视图
+    TestImplicit.printAge(22)
+
   }
 
   //隐式参数
@@ -34,4 +37,11 @@ object TestImplicit {
   def person(implicit name: String): Unit = {
     System.out.print(name)
   }
+
+  //隐式视图
+  implicit def stringToInt(ageString:Int) = ageString.toString
+  def printAge(age: String): Unit = {
+    System.out.print(age)
+  }
+
 }
