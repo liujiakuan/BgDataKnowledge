@@ -1,6 +1,6 @@
-package grammar.`implicit`
+package grammar.scalaImplicit
 
-class TestImplicit {
+class ScalaImplicit {
   /**
     * 使用方式:
     * 1.将方法或变量标记为implicit
@@ -19,15 +19,16 @@ class TestImplicit {
     */
 }
 
-object TestImplicit {
-  def apply: TestImplicit = new TestImplicit()
-
+object ScalaImplicit {
+  def apply: ScalaImplicit = new ScalaImplicit()
 
   def main(args: Array[String]): Unit = {
     //测试隐式参数如果没有定义implicit name，则如下调用会报错
-    TestImplicit.person
+    ScalaImplicit.person
     //测试隐式视图
-    TestImplicit.printAge(22)
+    ScalaImplicit.printAge(22)
+    //测试隐式类
+    System.out.println("hello ".increment)
 
   }
 
@@ -35,16 +36,19 @@ object TestImplicit {
   implicit var name: String = "ljk"
 
   def person(implicit name: String): Unit = {
-    System.out.print(name)
+    System.out.println(name)
   }
 
   //隐式视图
   implicit def stringToInt(ageString: Int): String = ageString.toString
 
   def printAge(age: String): Unit = {
-    System.out.print(age)
+    System.out.println(age)
   }
 
-  //TODO 隐式类
+  //隐式类
+  implicit class StringImprovement(val s: String) {
+    def increment: String = s + "ljk"
+  }
 
 }
