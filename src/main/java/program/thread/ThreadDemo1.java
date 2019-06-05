@@ -2,11 +2,10 @@ package program.thread;
 
 // 创建一个新的线程
 class NewThread implements Runnable {
-    Thread t;
 
     NewThread() {
         // 创建第二个新线程
-        t = new Thread(this, "Demo Thread");
+        Thread t = new Thread(this, "Demo Thread");
         System.out.println("Child thread: " + t);
         t.start(); // 开始线程
     }
