@@ -37,7 +37,7 @@
     <session id="-1536785481">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="31" />
+          <entry key="project.closed" value="32" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.38" value="1" />
@@ -47,6 +47,7 @@
           <entry key="project.open.time.48" value="1" />
           <entry key="project.open.time.49" value="1" />
           <entry key="project.open.time.52" value="1" />
+          <entry key="project.open.time.56" value="1" />
           <entry key="project.open.time.58" value="4" />
           <entry key="project.open.time.59" value="3" />
           <entry key="project.open.time.60" value="2" />
@@ -59,7 +60,7 @@
           <entry key="project.open.time.71" value="1" />
           <entry key="project.open.time.78" value="1" />
           <entry key="project.open.time.88" value="1" />
-          <entry key="project.opened" value="32" />
+          <entry key="project.opened" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -69,7 +70,7 @@
           <entry key="md" value="28" />
           <entry key="properties" value="12" />
           <entry key="scala" value="7503" />
-          <entry key="txt" value="927" />
+          <entry key="txt" value="937" />
           <entry key="xml" value="14" />
         </counts>
       </usages-collector>
@@ -77,7 +78,7 @@
         <counts>
           <entry key="JAVA" value="6979" />
           <entry key="Markdown" value="28" />
-          <entry key="PLAIN_TEXT" value="931" />
+          <entry key="PLAIN_TEXT" value="941" />
           <entry key="Properties" value="12" />
           <entry key="Scala" value="7503" />
           <entry key="XML" value="14" />
@@ -90,7 +91,7 @@
           <entry key="md" value="1" />
           <entry key="png" value="1" />
           <entry key="properties" value="1" />
-          <entry key="scala" value="53" />
+          <entry key="scala" value="54" />
           <entry key="txt" value="2" />
           <entry key="xml" value="5" />
         </counts>
@@ -103,7 +104,7 @@
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="Properties" value="1" />
-          <entry key="Scala" value="53" />
+          <entry key="Scala" value="54" />
           <entry key="XML" value="5" />
         </counts>
       </usages-collector>
@@ -116,11 +117,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/dataStructure/enumerate/Enum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+            <state relative-caret-position="25">
+              <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
               <folding>
                 <element signature="e#284#285#0" expanded="true" />
                 <element signature="e#312#313#0" expanded="true" />
@@ -129,20 +130,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/program/exception/Exe_exeception.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dataStructure/enumerate/ExeEnumeration.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+              <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -184,7 +176,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/scala/operator/O_aggregateByKey.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/operator/O_aggregate.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/operator/O_join.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/operator/O_cogroup.scala" />
@@ -235,6 +226,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/grammar/scalaImplicit/ScalaImplicit.scala" />
         <option value="$PROJECT_DIR$/src/main/java/dataStructure/enumerate/Enum.java" />
         <option value="$PROJECT_DIR$/src/main/java/dataStructure/enumerate/ExeEnumeration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/program/exception/scriptFile.scala" />
       </list>
     </option>
   </component>
@@ -277,6 +269,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -388,6 +381,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BgDataKnowledge" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BgDataKnowledge" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="sort" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -457,14 +458,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559662278829" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559740216680" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="ScalaTest" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.ScalaTest" value="org.scalatest.FunSuite" />
@@ -481,16 +481,17 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\AAAAAAASoft\IDEA\BgDataKnowledge\src\main\java\dataStructure\tree\binaryTree" />
-      <recent name="D:\AAAAAAASoft\IDEA\BgDataKnowledge\knowledge" />
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="org.scalatest.FunSuite" />
+      <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="org.scalatest.FunSuite" />
-      <recent name="" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\AAAAAAASoft\IDEA\BgDataKnowledge\src\main\java\program\exception" />
+      <recent name="D:\AAAAAAASoft\IDEA\BgDataKnowledge\src\main\java\dataStructure\tree\binaryTree" />
+      <recent name="D:\AAAAAAASoft\IDEA\BgDataKnowledge\knowledge" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -633,14 +634,8 @@
       <workItem from="1559354747392" duration="3079000" />
       <workItem from="1559450479251" duration="2148000" />
       <workItem from="1559566902198" duration="3603000" />
-      <workItem from="1559661339811" duration="820000" />
-    </task>
-    <task id="LOCAL-00066" summary="java stack">
-      <created>1557666238237</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1557666238237</updated>
+      <workItem from="1559661339811" duration="995000" />
+      <workItem from="1559736224434" duration="1080000" />
     </task>
     <task id="LOCAL-00067" summary="java stack">
       <created>1557666843995</created>
@@ -978,17 +973,24 @@
       <option name="project" value="LOCAL" />
       <updated>1559569561849</updated>
     </task>
-    <option name="localTasksCounter" value="115" />
+    <task id="LOCAL-00115" summary="exception">
+      <created>1559662307663</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1559662307664</updated>
+    </task>
+    <option name="localTasksCounter" value="116" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125394000" />
+    <option name="totallyTimeSpent" value="126649000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27382752" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27836612" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1063,7 +1065,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="user define function" />
     <MESSAGE value="user define aggregate function" />
     <MESSAGE value="java array" />
     <MESSAGE value="java stack" />
@@ -1088,7 +1089,8 @@
     <MESSAGE value="Scala Implicit" />
     <MESSAGE value="format" />
     <MESSAGE value="Enumeration" />
-    <option name="LAST_COMMIT_MESSAGE" value="Enumeration" />
+    <MESSAGE value="exception" />
+    <option name="LAST_COMMIT_MESSAGE" value="exception" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
@@ -1100,13 +1102,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/operator/O_sortByKey.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/operator/O_join.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -1423,17 +1418,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dataStructure/enumerate/ExeEnumeration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/program/exception/Exe_exeception.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/program/exception/scriptFile.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/java/dataStructure/enumerate/Enum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        <state relative-caret-position="25">
+          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
           <folding>
             <element signature="e#284#285#0" expanded="true" />
             <element signature="e#312#313#0" expanded="true" />
@@ -1441,10 +1431,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/program/exception/Exe_exeception.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dataStructure/enumerate/ExeEnumeration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        <state relative-caret-position="300">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
         </state>
       </provider>
     </entry>
