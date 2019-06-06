@@ -9,6 +9,13 @@ class NewThread implements Runnable {
         System.out.println("Child thread: " + t);
         t.start(); // 开始线程
     }
+//class NewThread extends Thread {
+//    NewThread() {
+//        // 创建第二个新线程
+//        super("Demo Thread");
+//        System.out.println("Child thread: " + this);
+//        start(); // 开始线程
+//    }
 
     // 第二个线程入口
     public void run() {

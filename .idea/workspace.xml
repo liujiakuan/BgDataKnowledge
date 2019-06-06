@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3cc0a24a-0d06-4caf-9c5f-09c6cff6f246" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/program/thread/ThreadDemo1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/program/thread/ThreadDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/thread/ThreadDemo1.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,7 +38,7 @@
     <session id="-1536785481">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="32" />
+          <entry key="project.closed" value="33" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.38" value="1" />
@@ -55,31 +55,31 @@
           <entry key="project.open.time.61" value="2" />
           <entry key="project.open.time.62" value="1" />
           <entry key="project.open.time.63" value="1" />
-          <entry key="project.open.time.64" value="1" />
+          <entry key="project.open.time.64" value="2" />
           <entry key="project.open.time.65" value="2" />
           <entry key="project.open.time.68" value="1" />
           <entry key="project.open.time.71" value="1" />
           <entry key="project.open.time.78" value="1" />
           <entry key="project.open.time.88" value="1" />
-          <entry key="project.opened" value="33" />
+          <entry key="project.opened" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="4" />
-          <entry key="java" value="6981" />
+          <entry key="java" value="6984" />
           <entry key="md" value="28" />
           <entry key="properties" value="12" />
           <entry key="scala" value="7503" />
-          <entry key="txt" value="943" />
+          <entry key="txt" value="952" />
           <entry key="xml" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6981" />
+          <entry key="JAVA" value="6984" />
           <entry key="Markdown" value="28" />
-          <entry key="PLAIN_TEXT" value="947" />
+          <entry key="PLAIN_TEXT" value="956" />
           <entry key="Properties" value="12" />
           <entry key="Scala" value="7503" />
           <entry key="XML" value="14" />
@@ -88,7 +88,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
-          <entry key="java" value="26" />
+          <entry key="java" value="27" />
           <entry key="md" value="1" />
           <entry key="png" value="1" />
           <entry key="properties" value="1" />
@@ -101,7 +101,7 @@
         <counts>
           <entry key="CLASS" value="2" />
           <entry key="Image" value="1" />
-          <entry key="JAVA" value="26" />
+          <entry key="JAVA" value="27" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="Properties" value="1" />
@@ -118,33 +118,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dataStructure/enumerate/Enum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-              <folding>
-                <element signature="e#284#285#0" expanded="true" />
-                <element signature="e#312#313#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/program/thread/ThreadDemo1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="46" lean-forward="true" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dataStructure/enumerate/ExeEnumeration.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+              <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -164,9 +142,11 @@
     <findStrings>
       <find>j</find>
       <find>--------WordCount-------</find>
+      <find>NewThread</find>
     </findStrings>
     <replaceStrings>
       <replace>k</replace>
+      <replace>NewThread2</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -186,7 +166,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/scala/operator/O_join.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/operator/O_cogroup.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/operator/O_cartesian.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/operator/O_pipe.scala" />
@@ -236,6 +215,7 @@
         <option value="$PROJECT_DIR$/src/main/java/dataStructure/enumerate/Enum.java" />
         <option value="$PROJECT_DIR$/src/main/java/dataStructure/enumerate/ExeEnumeration.java" />
         <option value="$PROJECT_DIR$/src/main/java/program/exception/scriptFile.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/program/thread/ThreadDemo2.java" />
         <option value="$PROJECT_DIR$/src/main/java/program/thread/ThreadDemo1.java" />
       </list>
     </option>
@@ -278,8 +258,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -397,13 +375,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559740969156" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559825092539" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="ScalaTest" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.ScalaTest" value="org.scalatest.FunSuite" />
@@ -446,7 +426,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ExeEnumeration">
+  <component name="RunManager" selected="Application.ThreadDemo1">
     <configuration name="ExeEnumeration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dataStructure.enumerate.ExeEnumeration" />
       <module name="BgDataStudy" />
@@ -466,19 +446,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="grammar.scalaImplicit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructure.tree.binaryTree.TestBinaryTree" />
-      <module name="BgDataStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dataStructure.tree.binaryTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -512,20 +479,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThreadDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="program.thread.ThreadDemo1" />
+      <module name="BgDataStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="program.thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.TestBinaryTree" />
       <item itemvalue="Application.TestMap" />
       <item itemvalue="Application.TestImplicit" />
       <item itemvalue="Application.ScalaImplicit" />
       <item itemvalue="Application.ExeEnumeration" />
+      <item itemvalue="Application.ThreadDemo1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadDemo1" />
         <item itemvalue="Application.ExeEnumeration" />
         <item itemvalue="Application.ScalaImplicit" />
         <item itemvalue="Application.TestImplicit" />
         <item itemvalue="Application.TestMap" />
-        <item itemvalue="Application.TestBinaryTree" />
       </list>
     </recent_temporary>
   </component>
@@ -575,21 +555,8 @@
       <workItem from="1559450479251" duration="2148000" />
       <workItem from="1559566902198" duration="3603000" />
       <workItem from="1559661339811" duration="995000" />
-      <workItem from="1559736224434" duration="1874000" />
-    </task>
-    <task id="LOCAL-00068" summary="java stack">
-      <created>1557666977393</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1557666977393</updated>
-    </task>
-    <task id="LOCAL-00069" summary="java stack">
-      <created>1557667015039</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1557667015039</updated>
+      <workItem from="1559736224434" duration="2111000" />
+      <workItem from="1559824646279" duration="588000" />
     </task>
     <task id="LOCAL-00070" summary="java stack">
       <created>1557667254396</created>
@@ -920,17 +887,31 @@
       <option name="project" value="LOCAL" />
       <updated>1559740256174</updated>
     </task>
-    <option name="localTasksCounter" value="117" />
+    <task id="LOCAL-00117" summary="thread runnable">
+      <created>1559740990339</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1559740990339</updated>
+    </task>
+    <task id="LOCAL-00118" summary="thread runnable">
+      <created>1559741120847</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1559741120847</updated>
+    </task>
+    <option name="localTasksCounter" value="119" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127443000" />
+    <option name="totallyTimeSpent" value="128121000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27836612" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28290468" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1005,7 +986,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="java array" />
     <MESSAGE value="java stack" />
     <MESSAGE value="java queue" />
     <MESSAGE value="java linkedList" />
@@ -1030,7 +1010,8 @@
     <MESSAGE value="Enumeration" />
     <MESSAGE value="exception" />
     <MESSAGE value="thread" />
-    <option name="LAST_COMMIT_MESSAGE" value="thread" />
+    <MESSAGE value="thread runnable" />
+    <option name="LAST_COMMIT_MESSAGE" value="thread runnable" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
@@ -1042,13 +1023,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/operator/O_cogroup.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="13" selection-start-line="13" selection-end-line="18" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/operator/O_cartesian.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -1355,8 +1329,8 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/program/exception/scriptFile.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/java/dataStructure/enumerate/Enum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        <state relative-caret-position="400">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
           <folding>
             <element signature="e#284#285#0" expanded="true" />
             <element signature="e#312#313#0" expanded="true" />
@@ -1373,8 +1347,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/program/thread/ThreadDemo1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="46" lean-forward="true" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+        <state relative-caret-position="186">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/program/thread/ThreadDemo2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-225">
+          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
