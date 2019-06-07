@@ -7,7 +7,7 @@ class O_aggregate {
 
 }
 
-object O_aggregate{
+object O_aggregate {
   def apply: O_aggregate = new O_aggregate()
 
   def main(args: Array[String]): Unit = {

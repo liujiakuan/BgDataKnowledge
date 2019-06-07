@@ -1,7 +1,7 @@
 class TestScala {
-  
+
 }
 
-object TestScala{
+object TestScala {
   def apply: TestScala = new TestScala()
 }

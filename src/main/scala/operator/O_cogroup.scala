@@ -13,8 +13,8 @@ object O_cogroup {
   def main(args: Array[String]): Unit = {
     val conf = new SparkConf().setAppName("cogroup").setMaster("local[2]")
     val spark = SparkSession.builder().config(conf).getOrCreate()
-    val rdd = spark.sparkContext.parallelize(Seq(1,1,2,3,4,5,6,7,8,9,10), 3)
-    val rdd2 = spark.sparkContext.parallelize(Seq(2,3,3,3,11,12,13,6,7), 3)
+    val rdd = spark.sparkContext.parallelize(Seq(1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10), 3)
+    val rdd2 = spark.sparkContext.parallelize(Seq(2, 3, 3, 3, 11, 12, 13, 6, 7), 3)
     val pairRdd1 = rdd.map(elem => (elem, 1))
     val pairRdd2 = rdd2.map(elem => (elem, 2))
 
