@@ -2,11 +2,12 @@ package program.serializable;
 
 public class Employee implements java.io.Serializable {
     public String name;
-    public String address;
-    public transient int SSN;
-    public int number;
+    String address;
+    //transient 修饰的变量不能被序列化
+    transient int SSN;
+    int number;
 
-    public void mailCheck() {
+    void mailCheck() {
         System.out.println("Mailing a check to " + name
                 + " " + address);
     }
