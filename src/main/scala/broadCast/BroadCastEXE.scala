@@ -14,7 +14,7 @@ object BroadCastEXE {
     val conf = new SparkConf().setAppName("createDataFrame").setMaster("local[2]")
     val spark = SparkSession.builder().config(conf).getOrCreate()
 
-    val dfSeq = spark.createDataFrame(Seq(("ljk", 22), ("yky", "20"), ("xxx", 18))) toDF("name", "age")
+    val dfSeq = spark.createDataFrame(Seq(("ljk", 22), ("yky", 20), ("xxx", 18))) toDF("name", "age")
 
     val broads = spark.sparkContext.broadcast(6)
 
