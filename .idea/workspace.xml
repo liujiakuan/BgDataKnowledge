@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3cc0a24a-0d06-4caf-9c5f-09c6cff6f246" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/broadCast/BroadCastEXE.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/program/thread/ThreadDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/program/thread/ThreadDemo1.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,10 +38,12 @@
     <session id="-1536785481">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="33" />
+          <entry key="project.closed" value="38" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.115" value="1" />
+          <entry key="project.open.time.168" value="1" />
           <entry key="project.open.time.37" value="1" />
-          <entry key="project.open.time.38" value="1" />
+          <entry key="project.open.time.38" value="2" />
           <entry key="project.open.time.41" value="2" />
           <entry key="project.open.time.43" value="2" />
           <entry key="project.open.time.44" value="2" />
@@ -61,38 +63,40 @@
           <entry key="project.open.time.71" value="1" />
           <entry key="project.open.time.78" value="1" />
           <entry key="project.open.time.88" value="1" />
-          <entry key="project.opened" value="34" />
+          <entry key="project.open.time.93" value="1" />
+          <entry key="project.open.time.95" value="1" />
+          <entry key="project.opened" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="4" />
-          <entry key="java" value="6984" />
-          <entry key="md" value="28" />
+          <entry key="java" value="7157" />
+          <entry key="md" value="42" />
           <entry key="properties" value="12" />
-          <entry key="scala" value="7503" />
-          <entry key="txt" value="952" />
+          <entry key="scala" value="7592" />
+          <entry key="txt" value="983" />
           <entry key="xml" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6984" />
-          <entry key="Markdown" value="28" />
-          <entry key="PLAIN_TEXT" value="956" />
+          <entry key="JAVA" value="7157" />
+          <entry key="Markdown" value="42" />
+          <entry key="PLAIN_TEXT" value="987" />
           <entry key="Properties" value="12" />
-          <entry key="Scala" value="7503" />
+          <entry key="Scala" value="7592" />
           <entry key="XML" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
-          <entry key="java" value="27" />
-          <entry key="md" value="1" />
+          <entry key="java" value="30" />
+          <entry key="md" value="3" />
           <entry key="png" value="1" />
           <entry key="properties" value="1" />
-          <entry key="scala" value="54" />
+          <entry key="scala" value="57" />
           <entry key="txt" value="2" />
           <entry key="xml" value="5" />
         </counts>
@@ -101,11 +105,11 @@
         <counts>
           <entry key="CLASS" value="2" />
           <entry key="Image" value="1" />
-          <entry key="JAVA" value="27" />
-          <entry key="Markdown" value="1" />
+          <entry key="JAVA" value="30" />
+          <entry key="Markdown" value="3" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="Properties" value="1" />
-          <entry key="Scala" value="54" />
+          <entry key="Scala" value="57" />
           <entry key="XML" value="5" />
         </counts>
       </usages-collector>
@@ -118,11 +122,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/program/thread/ThreadDemo1.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/dataframe/CreateDF.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+            <state relative-caret-position="100">
+              <caret line="16" selection-start-line="16" selection-end-line="27" selection-end-column="103" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/broadCast/BroadCastEXE.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="284">
+              <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+              <folding>
+                <element signature="e#19#52#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -166,10 +182,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/scala/operator/O_cogroup.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/operator/O_cartesian.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/operator/O_pipe.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/operator/O_repartition_coalesce.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/operator/O_sortByKey.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/operator/O_repartitionAndSortWithinPartitions.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/operator/O_reduce.scala" />
@@ -198,7 +210,6 @@
         <option value="$PROJECT_DIR$/src/main/java/dataStructure/recursion/Febonacci.scala" />
         <option value="$PROJECT_DIR$/src/main/java/dataStructure/recursion/Febonacci.java" />
         <option value="$PROJECT_DIR$/src/main/java/dataStructure/recursion/Hanoi.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/scala/streaming/WriteData.scala" />
         <option value="$PROJECT_DIR$/src/main/java/sort/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/dataStructure/tree/BinaryTree.java" />
@@ -217,6 +228,11 @@
         <option value="$PROJECT_DIR$/src/main/java/program/exception/scriptFile.scala" />
         <option value="$PROJECT_DIR$/src/main/java/program/thread/ThreadDemo2.java" />
         <option value="$PROJECT_DIR$/src/main/java/program/thread/ThreadDemo1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/program/serializable/ExeSerializable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/program/serializable/ExeDeserialize.java" />
+        <option value="$PROJECT_DIR$/src/main/java/program/serializable/Employee.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/scala/broadCast/BroadCastEXE.scala" />
       </list>
     </option>
   </component>
@@ -246,7 +262,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -258,6 +274,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -298,7 +317,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="program" type="462c0819:PsiDirectoryNode" />
-              <item name="thread" type="462c0819:PsiDirectoryNode" />
+              <item name="serializable" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BgDataKnowledge" type="b2602c69:ProjectViewProjectNode" />
@@ -375,15 +394,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559825092539" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560348342057" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="ScalaTest" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.ScalaTest" value="org.scalatest.FunSuite" />
@@ -400,18 +416,18 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\AAAAAAASoft\IDEA\BgDataKnowledge\src\main\java\program\thread" />
+      <recent name="D:\AAAAAAASoft\IDEA\BgDataKnowledge\src\main\java\program\exception" />
+      <recent name="D:\AAAAAAASoft\IDEA\BgDataKnowledge\src\main\java\dataStructure\tree\binaryTree" />
+      <recent name="D:\AAAAAAASoft\IDEA\BgDataKnowledge\knowledge" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="org.scalatest.FunSuite" />
       <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\AAAAAAASoft\IDEA\BgDataKnowledge\src\main\java\program\thread" />
-      <recent name="D:\AAAAAAASoft\IDEA\BgDataKnowledge\src\main\java\program\exception" />
-      <recent name="D:\AAAAAAASoft\IDEA\BgDataKnowledge\src\main\java\dataStructure\tree\binaryTree" />
-      <recent name="D:\AAAAAAASoft\IDEA\BgDataKnowledge\knowledge" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -426,7 +442,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ThreadDemo1">
+  <component name="RunManager" selected="Application.BroadCastEXE">
+    <configuration name="BroadCastEXE" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="broadCast.BroadCastEXE" />
+      <module name="BgDataStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="broadCast.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExeDeserialize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="program.serializable.ExeDeserialize" />
+      <module name="BgDataStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="program.serializable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ExeEnumeration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dataStructure.enumerate.ExeEnumeration" />
       <module name="BgDataStudy" />
@@ -440,38 +482,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScalaImplicit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="grammar.scalaImplicit.ScalaImplicit" />
+    <configuration name="ExeSerializable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="program.serializable.ExeSerializable" />
       <module name="BgDataStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="grammar.scalaImplicit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestImplicit" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="grammar.`implicit`.TestImplicit" />
-      <module name="BgDataStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="grammar.`implicit`.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructure.map.TestMap" />
-      <module name="BgDataStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dataStructure.map.*" />
+          <option name="PATTERN" value="program.serializable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -493,19 +509,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestMap" />
-      <item itemvalue="Application.TestImplicit" />
-      <item itemvalue="Application.ScalaImplicit" />
       <item itemvalue="Application.ExeEnumeration" />
       <item itemvalue="Application.ThreadDemo1" />
+      <item itemvalue="Application.ExeSerializable" />
+      <item itemvalue="Application.ExeDeserialize" />
+      <item itemvalue="Application.BroadCastEXE" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BroadCastEXE" />
+        <item itemvalue="Application.ExeDeserialize" />
+        <item itemvalue="Application.ExeSerializable" />
         <item itemvalue="Application.ThreadDemo1" />
         <item itemvalue="Application.ExeEnumeration" />
-        <item itemvalue="Application.ScalaImplicit" />
-        <item itemvalue="Application.TestImplicit" />
-        <item itemvalue="Application.TestMap" />
       </list>
     </recent_temporary>
   </component>
@@ -556,49 +572,12 @@
       <workItem from="1559566902198" duration="3603000" />
       <workItem from="1559661339811" duration="995000" />
       <workItem from="1559736224434" duration="2111000" />
-      <workItem from="1559824646279" duration="588000" />
-    </task>
-    <task id="LOCAL-00070" summary="java stack">
-      <created>1557667254396</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1557667254396</updated>
-    </task>
-    <task id="LOCAL-00071" summary="java stack">
-      <created>1557667546876</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1557667546876</updated>
-    </task>
-    <task id="LOCAL-00072" summary="java queue">
-      <created>1557667583807</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1557667583807</updated>
-    </task>
-    <task id="LOCAL-00073" summary="java linkedList">
-      <created>1557673755404</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1557673755404</updated>
-    </task>
-    <task id="LOCAL-00074" summary="java linkedList">
-      <created>1557673804994</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1557673804994</updated>
-    </task>
-    <task id="LOCAL-00075" summary="Febonacci">
-      <created>1557753643302</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1557753643307</updated>
+      <workItem from="1559824646279" duration="664000" />
+      <workItem from="1559875348697" duration="799000" />
+      <workItem from="1559898562292" duration="4354000" />
+      <workItem from="1560002936609" duration="1736000" />
+      <workItem from="1560173179634" duration="1939000" />
+      <workItem from="1560347380590" duration="746000" />
     </task>
     <task id="LOCAL-00076" summary="Hanoi">
       <created>1557757204796</created>
@@ -901,17 +880,59 @@
       <option name="project" value="LOCAL" />
       <updated>1559741120847</updated>
     </task>
-    <option name="localTasksCounter" value="119" />
+    <task id="LOCAL-00119" summary="thread runnable、extends Thread">
+      <created>1559825263196</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1559825263196</updated>
+    </task>
+    <task id="LOCAL-00120" summary="Serializ">
+      <created>1559907156266</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1559907156269</updated>
+    </task>
+    <task id="LOCAL-00121" summary="Serialize">
+      <created>1559907231329</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1559907231330</updated>
+    </task>
+    <task id="LOCAL-00122" summary="Serialize">
+      <created>1559907490281</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1559907490282</updated>
+    </task>
+    <task id="LOCAL-00123" summary="Serialize">
+      <created>1560004955793</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1560004955796</updated>
+    </task>
+    <task id="LOCAL-00124" summary="OSchina Blog">
+      <created>1560175146330</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1560175146332</updated>
+    </task>
+    <option name="localTasksCounter" value="125" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128121000" />
+    <option name="totallyTimeSpent" value="137918000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28290468" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23524962" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -920,8 +941,8 @@
       <window_info id="Learn" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.21346469" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32840723" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37766832" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39901477" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -944,40 +965,6 @@
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.32980332" />
       <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2624811" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Learn" order="6" />
-      <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21346469" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39901477" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32840723" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32840723" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" />
-      <window_info anchor="bottom" id="Thumbnails" order="12" weight="0.32840723" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32840723" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32980332" />
-      <window_info anchor="right" id="Bean Validation" order="9" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -986,9 +973,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="java stack" />
-    <MESSAGE value="java queue" />
-    <MESSAGE value="java linkedList" />
     <MESSAGE value="Febonacci" />
     <MESSAGE value="Hanoi" />
     <MESSAGE value="README.md" />
@@ -1011,7 +995,10 @@
     <MESSAGE value="exception" />
     <MESSAGE value="thread" />
     <MESSAGE value="thread runnable" />
-    <option name="LAST_COMMIT_MESSAGE" value="thread runnable" />
+    <MESSAGE value="thread runnable、extends Thread" />
+    <MESSAGE value="Serialize" />
+    <MESSAGE value="OSchina Blog" />
+    <option name="LAST_COMMIT_MESSAGE" value="OSchina Blog" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
@@ -1023,41 +1010,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/operator/O_cartesian.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/operator/O_pipe.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="13" selection-start-line="13" selection-end-line="16" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/operator/O_repartition_coalesce.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/operator/O_repartitionAndSortWithinPartitions.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/operator/O_reduce.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="13" selection-start-line="13" selection-end-line="16" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/operator/O_takeSample.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="70">
@@ -1114,13 +1066,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/dataframe/CreateDF.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_21/src.zip!/java/lang/System.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-710">
@@ -1154,16 +1099,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="775">
           <caret line="33" column="47" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="25">
-            <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1331,10 +1266,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-          <folding>
-            <element signature="e#284#285#0" expanded="true" />
-            <element signature="e#312#313#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1345,17 +1276,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/program/thread/ThreadDemo1.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/program/thread/ThreadDemo2.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/operator/O_repartitionAndSortWithinPartitions.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        <state relative-caret-position="471">
+          <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/program/thread/ThreadDemo2.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/program/serializable/ExeSerializable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-225">
-          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="125">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/program/serializable/ExeDeserialize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/program/serializable/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="100">
+            <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/program/thread/ThreadDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9">
+          <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/dataframe/CreateDF.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="16" selection-start-line="16" selection-end-line="27" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/broadCast/BroadCastEXE.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+          <folding>
+            <element signature="e#19#52#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
