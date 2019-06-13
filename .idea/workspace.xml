@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3cc0a24a-0d06-4caf-9c5f-09c6cff6f246" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/broadCast/BroadCastEXE.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/broadCast/BroadCastEXE.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/broadCast/BroadCastEXE.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,9 +38,10 @@
     <session id="-1536785481">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="38" />
+          <entry key="project.closed" value="39" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.115" value="1" />
+          <entry key="project.open.time.119" value="1" />
           <entry key="project.open.time.168" value="1" />
           <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.38" value="2" />
@@ -65,7 +66,7 @@
           <entry key="project.open.time.88" value="1" />
           <entry key="project.open.time.93" value="1" />
           <entry key="project.open.time.95" value="1" />
-          <entry key="project.opened" value="39" />
+          <entry key="project.opened" value="40" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -74,8 +75,8 @@
           <entry key="java" value="7157" />
           <entry key="md" value="42" />
           <entry key="properties" value="12" />
-          <entry key="scala" value="7592" />
-          <entry key="txt" value="983" />
+          <entry key="scala" value="7650" />
+          <entry key="txt" value="995" />
           <entry key="xml" value="14" />
         </counts>
       </usages-collector>
@@ -83,9 +84,9 @@
         <counts>
           <entry key="JAVA" value="7157" />
           <entry key="Markdown" value="42" />
-          <entry key="PLAIN_TEXT" value="987" />
+          <entry key="PLAIN_TEXT" value="999" />
           <entry key="Properties" value="12" />
-          <entry key="Scala" value="7592" />
+          <entry key="Scala" value="7650" />
           <entry key="XML" value="14" />
         </counts>
       </usages-collector>
@@ -125,8 +126,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/dataframe/CreateDF.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="16" selection-start-line="16" selection-end-line="27" selection-end-column="103" />
+            <state relative-caret-position="134">
+              <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -135,7 +136,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/broadCast/BroadCastEXE.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="284">
-              <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+              <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
               <folding>
                 <element signature="e#19#52#0" expanded="true" />
               </folding>
@@ -275,8 +276,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -394,12 +393,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560348342057" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560348615145" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="ScalaTest" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.ScalaTest" value="org.scalatest.FunSuite" />
@@ -577,21 +578,8 @@
       <workItem from="1559898562292" duration="4354000" />
       <workItem from="1560002936609" duration="1736000" />
       <workItem from="1560173179634" duration="1939000" />
-      <workItem from="1560347380590" duration="746000" />
-    </task>
-    <task id="LOCAL-00076" summary="Hanoi">
-      <created>1557757204796</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1557757204796</updated>
-    </task>
-    <task id="LOCAL-00077" summary="Hanoi">
-      <created>1557757214618</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1557757214618</updated>
+      <workItem from="1560347380590" duration="1547000" />
+      <workItem from="1560434591409" duration="1165000" />
     </task>
     <task id="LOCAL-00078" summary="README.md">
       <created>1557846294463</created>
@@ -922,17 +910,31 @@
       <option name="project" value="LOCAL" />
       <updated>1560175146332</updated>
     </task>
-    <option name="localTasksCounter" value="125" />
+    <task id="LOCAL-00125" summary="BroadCast">
+      <created>1560348386156</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1560348386171</updated>
+    </task>
+    <task id="LOCAL-00126" summary="BroadCast">
+      <created>1560348416725</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1560348416725</updated>
+    </task>
+    <option name="localTasksCounter" value="127" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137918000" />
+    <option name="totallyTimeSpent" value="139884000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23524962" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23903178" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -973,7 +975,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Febonacci" />
     <MESSAGE value="Hanoi" />
     <MESSAGE value="README.md" />
     <MESSAGE value="SparkStreaming  test demo。have some bugs waiting for solving" />
@@ -998,7 +999,8 @@
     <MESSAGE value="thread runnable、extends Thread" />
     <MESSAGE value="Serialize" />
     <MESSAGE value="OSchina Blog" />
-    <option name="LAST_COMMIT_MESSAGE" value="OSchina Blog" />
+    <MESSAGE value="BroadCast" />
+    <option name="LAST_COMMIT_MESSAGE" value="BroadCast" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
@@ -1288,9 +1290,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1298,9 +1297,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1330,15 +1326,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/dataframe/CreateDF.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="16" selection-start-line="16" selection-end-line="27" selection-end-column="103" />
+        <state relative-caret-position="134">
+          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/broadCast/BroadCastEXE.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="284">
-          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
           <folding>
             <element signature="e#19#52#0" expanded="true" />
           </folding>

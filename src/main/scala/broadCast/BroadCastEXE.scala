@@ -16,6 +16,7 @@ object BroadCastEXE {
 
     val dfSeq = spark.createDataFrame(Seq(("ljk", 22), ("yky", 20), ("xxx", 18))) toDF("name", "age")
 
+    //创建广播变量，广播变量是把一份数据广播到各个计算结点上，在计算时减少一部分网络传输
     val broads = spark.sparkContext.broadcast(6)
 
     dfSeq.rdd.map(elem => elem.getAs[Int]("age") * broads.value).foreach(elem => println(elem))
