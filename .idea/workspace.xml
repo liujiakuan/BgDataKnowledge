@@ -76,8 +76,8 @@
           <entry key="java" value="7157" />
           <entry key="md" value="42" />
           <entry key="properties" value="12" />
-          <entry key="scala" value="7746" />
-          <entry key="txt" value="995" />
+          <entry key="scala" value="7960" />
+          <entry key="txt" value="1012" />
           <entry key="xml" value="14" />
         </counts>
       </usages-collector>
@@ -85,9 +85,9 @@
         <counts>
           <entry key="JAVA" value="7157" />
           <entry key="Markdown" value="42" />
-          <entry key="PLAIN_TEXT" value="999" />
+          <entry key="PLAIN_TEXT" value="1016" />
           <entry key="Properties" value="12" />
-          <entry key="Scala" value="7746" />
+          <entry key="Scala" value="7960" />
           <entry key="XML" value="14" />
         </counts>
       </usages-collector>
@@ -148,8 +148,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/TestScala.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-96">
-              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            <state relative-caret-position="300">
+              <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -415,7 +415,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560585092635" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560587331845" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="ScalaTest" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.ScalaTest" value="org.scalatest.FunSuite" />
@@ -589,21 +589,7 @@
       <workItem from="1560173179634" duration="1939000" />
       <workItem from="1560347380590" duration="1547000" />
       <workItem from="1560434591409" duration="1642000" />
-      <workItem from="1560583662833" duration="1292000" />
-    </task>
-    <task id="LOCAL-00079" summary="SparkStreaming  test demo。have some bugs waiting for solving">
-      <created>1557932153077</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1557932153078</updated>
-    </task>
-    <task id="LOCAL-00080" summary="Quick Sort">
-      <created>1558105569862</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1558105569864</updated>
+      <workItem from="1560583662833" duration="3468000" />
     </task>
     <task id="LOCAL-00081" summary="tree">
       <created>1558191199919</created>
@@ -934,16 +920,64 @@
       <option name="project" value="LOCAL" />
       <updated>1560435825936</updated>
     </task>
-    <option name="localTasksCounter" value="128" />
+    <task id="LOCAL-00128" summary="反编译查看普通对象和伴生对象的区别">
+      <created>1560585157607</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1560585157610</updated>
+    </task>
+    <task id="LOCAL-00129" summary="反编译查看普通对象和伴生对象的区别">
+      <created>1560585397031</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1560585397031</updated>
+    </task>
+    <option name="localTasksCounter" value="130" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141653000" />
+    <option name="totallyTimeSpent" value="143829000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24281392" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32840723" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37766832" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39901477" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32840723" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32840723" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Thumbnails" order="12" weight="0.32840723" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32676518" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32980332" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+    <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24281392" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
@@ -976,7 +1010,7 @@
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.32980332" />
       <window_info anchor="right" id="Bean Validation" order="9" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -985,7 +1019,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Hanoi" />
     <MESSAGE value="README.md" />
     <MESSAGE value="SparkStreaming  test demo。have some bugs waiting for solving" />
     <MESSAGE value="Quick Sort" />
@@ -1010,7 +1043,8 @@
     <MESSAGE value="Serialize" />
     <MESSAGE value="OSchina Blog" />
     <MESSAGE value="BroadCast" />
-    <option name="LAST_COMMIT_MESSAGE" value="BroadCast" />
+    <MESSAGE value="反编译查看普通对象和伴生对象的区别" />
+    <option name="LAST_COMMIT_MESSAGE" value="反编译查看普通对象和伴生对象的区别" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
@@ -1346,8 +1380,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/TestScala.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-96">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        <state relative-caret-position="300">
+          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
         </state>
       </provider>
     </entry>
