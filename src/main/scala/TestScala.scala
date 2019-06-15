@@ -10,17 +10,17 @@ object TestScala {
     this.func()
   }
 
-  def func():Unit={
+  def func(): Unit = {
     println("testScala")
   }
 }
 
-object TestOne{
+object TestOne {
   def apply: TestScala = new TestScala()
 }
 
-object TestTwo{
-  def func():Unit={
-    println("testtwo")
+object TestTwo {
+  def func(): Unit = {
+    println("testTwo")
   }
 }
