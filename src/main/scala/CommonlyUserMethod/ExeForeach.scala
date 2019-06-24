@@ -1,7 +1,6 @@
 package CommonlyUserMethod
 
 class ExeForeach {
-
 }
 
 object ExeForeach {
