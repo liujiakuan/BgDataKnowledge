@@ -1,8 +1,11 @@
 大数据开发工具介绍
 
 更多资源
+
 github: https://github.com/opensourceteams/spark-scala-maven-2.4.0
+
 操作系统
+
 服务器 centos 7
 
 IntelliJ IDEA
@@ -18,6 +21,7 @@ SecureCRT
 SSH远程连接工具,支持 window,mac
 
 下载地址: https://securecrt.en.softonic.com/
+
 SecureCRT是一款支持SSH（SSH1和SSH2）的终端仿真程序，简单地说是Windows,mac,linux下登录UNIX或Linux服务器主机的软件。
 
 Camtasia 2018
