@@ -1,3 +1,5 @@
+Spark执行流程
+=============
 当spark遇到action类算子，开始调起任务
 
 1.Action类型的算子触发job的执行。源码中调用了SparkContext的runJob()方法，根进源码发现底层调用的是DAGScheduler的runJob()方法。
