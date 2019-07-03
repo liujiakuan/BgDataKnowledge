@@ -185,8 +185,8 @@
         <entry file="file://$PROJECT_DIR$/knowledge/StandAlone调度过程.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="244">
-                <caret line="15" column="57" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+              <first_editor relative-caret-position="344">
+                <caret line="21" column="64" selection-start-line="21" selection-start-column="64" selection-end-line="21" selection-end-column="64" />
               </first_editor>
               <second_editor />
             </state>
@@ -394,7 +394,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562158058608" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562158460026" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="ScalaTest" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.ScalaTest" value="org.scalatest.FunSuite" />
@@ -579,14 +579,7 @@
       <workItem from="1561907165173" duration="979000" />
       <workItem from="1561985585464" duration="1230000" />
       <workItem from="1562062217875" duration="2106000" />
-      <workItem from="1562157402577" duration="728000" />
-    </task>
-    <task id="LOCAL-00097" summary="Huffman Tree">
-      <created>1558860808207</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1558860808208</updated>
+      <workItem from="1562157402577" duration="1051000" />
     </task>
     <task id="LOCAL-00098" summary="Thread Binary Tree">
       <created>1558860850061</created>
@@ -924,11 +917,18 @@
       <option name="project" value="LOCAL" />
       <updated>1562157881414</updated>
     </task>
-    <option name="localTasksCounter" value="146" />
+    <task id="LOCAL-00146" summary="Spark StandAlone调度过程">
+      <created>1562158144907</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1562158144908</updated>
+    </task>
+    <option name="localTasksCounter" value="147" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156997000" />
+    <option name="totallyTimeSpent" value="157290000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1339,8 +1339,8 @@
     <entry file="file://$PROJECT_DIR$/knowledge/StandAlone调度过程.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="244">
-            <caret line="15" column="57" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+          <first_editor relative-caret-position="344">
+            <caret line="21" column="64" selection-start-line="21" selection-start-column="64" selection-end-line="21" selection-end-column="64" />
           </first_editor>
           <second_editor />
         </state>
