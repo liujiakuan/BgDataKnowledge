@@ -1,5 +1,5 @@
-![standAlone](https://github.com/liujiakuan/BgDataKnowledge/tree/master/knowledge/img/standAlone.jpg)
-![standAlone](https://github.com/liujiakuan/BgDataKnowledge/tree/master/knowledge/img/standAloneStructure.png)
+![standAlone](https://github.com/liujiakuan/BgDataKnowledge/blob/master/knowledge/img/standAlone.jpg)
+![standAlone](https://github.com/liujiakuan/BgDataKnowledge/blob/master/knowledge/img/standAloneStructure.png)
 
 1、使用SparkSubmit提交任务的时候(包括Eclipse或者其它开发工具使用new SparkConf()来运行任务的时候)，Driver运行在Client；使用SparkShell提交的任务的时候，Driver是运行在Master上
 
@@ -19,4 +19,4 @@
 
 9、所有的task执行完成之后，SC向Master注销
 
-![standAlone](https://github.com/liujiakuan/BgDataKnowledge/tree/master/knowledge/img/standAlone2.jpg)
+![standAlone](https://github.com/liujiakuan/BgDataKnowledge/blob/master/knowledge/img/standAlone2.jpg)
