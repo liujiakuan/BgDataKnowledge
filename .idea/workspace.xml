@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3cc0a24a-0d06-4caf-9c5f-09c6cff6f246" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/knowledge/spark节点调度过程.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/knowledge/img/standAlone.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -38,7 +38,7 @@
     <session id="-1536785481">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="49" />
+          <entry key="project.closed" value="50" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.105" value="1" />
           <entry key="project.open.time.108" value="1" />
@@ -51,7 +51,7 @@
           <entry key="project.open.time.38" value="2" />
           <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.41" value="2" />
-          <entry key="project.open.time.43" value="3" />
+          <entry key="project.open.time.43" value="4" />
           <entry key="project.open.time.44" value="3" />
           <entry key="project.open.time.47" value="1" />
           <entry key="project.open.time.48" value="2" />
@@ -72,14 +72,14 @@
           <entry key="project.open.time.88" value="1" />
           <entry key="project.open.time.93" value="1" />
           <entry key="project.open.time.95" value="1" />
-          <entry key="project.opened" value="50" />
+          <entry key="project.opened" value="51" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="4" />
           <entry key="java" value="7157" />
-          <entry key="md" value="432" />
+          <entry key="md" value="457" />
           <entry key="properties" value="12" />
           <entry key="scala" value="8076" />
           <entry key="txt" value="1130" />
@@ -89,7 +89,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="7157" />
-          <entry key="Markdown" value="385" />
+          <entry key="Markdown" value="410" />
           <entry key="PLAIN_TEXT" value="1181" />
           <entry key="Properties" value="12" />
           <entry key="Scala" value="8076" />
@@ -100,7 +100,7 @@
         <counts>
           <entry key="class" value="2" />
           <entry key="java" value="30" />
-          <entry key="md" value="12" />
+          <entry key="md" value="13" />
           <entry key="png" value="1" />
           <entry key="properties" value="1" />
           <entry key="scala" value="59" />
@@ -114,7 +114,7 @@
           <entry key="CLASS" value="2" />
           <entry key="Image" value="1" />
           <entry key="JAVA" value="30" />
-          <entry key="Markdown" value="12" />
+          <entry key="Markdown" value="13" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="Properties" value="1" />
           <entry key="Scala" value="59" />
@@ -169,23 +169,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/knowledge/spark执行流程.md">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/knowledge/Spark执行流程.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="100">
-                <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <first_editor relative-caret-position="275">
+                <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/knowledge/spark节点调度过程.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor />
+              <first_editor relative-caret-position="175">
+                <caret line="7" selection-end-column="11" />
+              </first_editor>
               <second_editor />
             </state>
           </provider>
@@ -242,8 +244,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/scala/streaming/wordCount.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/dataframe/UdfDemo.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/dataframe/udfDemo2.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/dataframe/UdfDemo2.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/dataframe/util/MyUdaf2.scala" />
@@ -293,6 +293,8 @@
         <option value="$PROJECT_DIR$/knowledge/tools.md" />
         <option value="$PROJECT_DIR$/knowledge/README.md" />
         <option value="$PROJECT_DIR$/knowledge/spark执行流程.md" />
+        <option value="$PROJECT_DIR$/knowledge/spark节点调度过程.md" />
+        <option value="$PROJECT_DIR$/knowledge/dd.md" />
       </list>
     </option>
   </component>
@@ -335,6 +337,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -368,13 +371,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562062915601" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562157802710" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="ScalaTest" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.ScalaTest" value="org.scalatest.FunSuite" />
@@ -557,21 +559,8 @@
       <workItem from="1561643264219" duration="1461000" />
       <workItem from="1561907165173" duration="979000" />
       <workItem from="1561985585464" duration="1230000" />
-      <workItem from="1562062217875" duration="656000" />
-    </task>
-    <task id="LOCAL-00094" summary="binary tree">
-      <created>1558624600983</created>
-      <option name="number" value="00094" />
-      <option name="presentableId" value="LOCAL-00094" />
-      <option name="project" value="LOCAL" />
-      <updated>1558624600983</updated>
-    </task>
-    <task id="LOCAL-00095" summary="binary tree">
-      <created>1558624663164</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1558624663164</updated>
+      <workItem from="1562062217875" duration="2106000" />
+      <workItem from="1562157402577" duration="223000" />
     </task>
     <task id="LOCAL-00096" summary="sort binary tree">
       <created>1558782739898</created>
@@ -902,17 +891,30 @@
       <option name="project" value="LOCAL" />
       <updated>1562062784391</updated>
     </task>
-    <option name="localTasksCounter" value="143" />
+    <task id="LOCAL-00143" summary="spark节点调度过程">
+      <created>1562062953367</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1562062953367</updated>
+    </task>
+    <task id="LOCAL-00144" summary="spark节点调度过程">
+      <created>1562062998172</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1562062998172</updated>
+    </task>
+    <option name="localTasksCounter" value="145" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154977000" />
+    <option name="totallyTimeSpent" value="156674000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2730711" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27760968" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -953,7 +955,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="SparkStreaming WordCount  there is some bug waiting to fix." />
     <MESSAGE value="create and traversal the binary tree" />
     <MESSAGE value="binary tree" />
     <MESSAGE value="sort binary tree" />
@@ -978,7 +979,8 @@
     <MESSAGE value="map、foreach区别" />
     <MESSAGE value="开发工具介绍" />
     <MESSAGE value="Spark 触发Action之后的执行流程" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spark 触发Action之后的执行流程" />
+    <MESSAGE value="spark节点调度过程" />
+    <option name="LAST_COMMIT_MESSAGE" value="spark节点调度过程" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
@@ -990,13 +992,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/dataframe/scalaUtil/MyUdaf.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/dataframe/UdfDemo.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -1250,6 +1245,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="50">
+            <caret line="2" selection-start-line="2" selection-end-line="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/dataframe/CreateDF.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
@@ -1281,26 +1286,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/knowledge/spark节点调度过程.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="50">
-            <caret line="2" selection-start-line="2" selection-end-line="2" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/knowledge/spark执行流程.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="34" selection-end-line="16" selection-end-column="51" />
-        </state>
-      </provider>
-      <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="275">
-            <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <first_editor relative-caret-position="175">
+            <caret line="7" selection-end-column="11" />
           </first_editor>
           <second_editor />
         </state>
@@ -1316,20 +1306,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/knowledge/spark执行流程.md">
+    <entry file="file://$PROJECT_DIR$/knowledge/Spark执行流程.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="100">
-            <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <first_editor relative-caret-position="275">
+            <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
           </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/knowledge/spark节点调度过程.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
           <second_editor />
         </state>
       </provider>
