@@ -1,3 +1,4 @@
+![YARN-Client](https://github.com/liujiakuan/BgDataKnowledge/blob/master/knowledge/img/Yarn-cluster.png)
 
 1.客户端提交一个Application。
 
