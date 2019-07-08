@@ -13,3 +13,5 @@
 6.ApplicationMaster会向NodeManager发送命令启动Executor。
 
 7.Executor启动后，会反向注册给Driver，Driver发送task到Executor,执行情况和结果返回给Driver端。
+
+Yarn-cluster和Yarn-client区别就是Yarn-cluster的driver端是在节点中随机选取启动，Yarn-client的driver端是在任务提交的节点启动。
