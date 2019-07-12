@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef1dcfef-7dc0-43d5-8e75-f6c73dceb524" name="Default Changelist" comment="公司问题记录">
-      <change afterPath="$PROJECT_DIR$/companyWork/note/auth/auth.md" afterDir="false" />
+    <list default="true" id="ef1dcfef-7dc0-43d5-8e75-f6c73dceb524" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -59,8 +58,8 @@
         <entry file="file://$PROJECT_DIR$/companyWork/note/auth/auth.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor>
-                <caret column="10" selection-start-column="10" selection-end-column="10" />
+              <first_editor relative-caret-position="25">
+                <caret line="1" column="24" lean-forward="true" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
               </first_editor>
               <second_editor />
             </state>
@@ -215,16 +214,23 @@
       <updated>1562809385018</updated>
       <workItem from="1562809388945" duration="3670000" />
       <workItem from="1562824588697" duration="3275000" />
-      <workItem from="1562834761675" duration="61000" />
+      <workItem from="1562834761675" duration="1228000" />
     </task>
+    <task id="LOCAL-00001" summary="Auth2.0原理">
+      <created>1562834835171</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1562834835171</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7006000" />
+    <option name="totallyTimeSpent" value="8173000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25611246" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -266,7 +272,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="公司问题记录" />
-    <option name="LAST_COMMIT_MESSAGE" value="公司问题记录" />
+    <MESSAGE value="Auth2.0原理" />
+    <option name="LAST_COMMIT_MESSAGE" value="Auth2.0原理" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/sort/QuickSort.java">
@@ -315,8 +322,8 @@
     <entry file="file://$PROJECT_DIR$/companyWork/note/auth/auth.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="10" selection-start-column="10" selection-end-column="10" />
+          <first_editor relative-caret-position="25">
+            <caret line="1" column="24" lean-forward="true" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
           </first_editor>
           <second_editor />
         </state>
