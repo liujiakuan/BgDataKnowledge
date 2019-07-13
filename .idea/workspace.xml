@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/main/scala/grammar/scalaImplicit/ScalaImplicit.scala" line="49" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3cc0a24a-0d06-4caf-9c5f-09c6cff6f246" name="Default Changelist" comment="">
+    <list default="true" id="ef1dcfef-7dc0-43d5-8e75-f6c73dceb524" name="Default Changelist" comment="公司问题记录">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,116 +16,27 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="-80464327">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.open.time.12" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="xml" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="XML" value="1" />
-        </counts>
-      </usages-collector>
-    </session>
     <session id="-1536785481">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="57" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.105" value="1" />
-          <entry key="project.open.time.108" value="1" />
-          <entry key="project.open.time.115" value="1" />
-          <entry key="project.open.time.116" value="1" />
-          <entry key="project.open.time.119" value="1" />
-          <entry key="project.open.time.159" value="1" />
-          <entry key="project.open.time.168" value="1" />
-          <entry key="project.open.time.37" value="1" />
-          <entry key="project.open.time.38" value="2" />
-          <entry key="project.open.time.40" value="1" />
-          <entry key="project.open.time.41" value="2" />
-          <entry key="project.open.time.43" value="4" />
-          <entry key="project.open.time.44" value="3" />
-          <entry key="project.open.time.47" value="2" />
-          <entry key="project.open.time.48" value="2" />
-          <entry key="project.open.time.49" value="2" />
-          <entry key="project.open.time.52" value="2" />
-          <entry key="project.open.time.55" value="1" />
-          <entry key="project.open.time.56" value="1" />
-          <entry key="project.open.time.58" value="6" />
-          <entry key="project.open.time.59" value="3" />
-          <entry key="project.open.time.60" value="2" />
-          <entry key="project.open.time.61" value="2" />
-          <entry key="project.open.time.62" value="1" />
-          <entry key="project.open.time.63" value="1" />
-          <entry key="project.open.time.64" value="2" />
-          <entry key="project.open.time.65" value="2" />
-          <entry key="project.open.time.68" value="1" />
-          <entry key="project.open.time.71" value="1" />
-          <entry key="project.open.time.74" value="1" />
-          <entry key="project.open.time.78" value="1" />
-          <entry key="project.open.time.88" value="2" />
-          <entry key="project.open.time.93" value="1" />
-          <entry key="project.open.time.95" value="1" />
-          <entry key="project.opened" value="58" />
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.85" value="1" />
+          <entry key="project.open.time.99" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="4" />
-          <entry key="java" value="7157" />
-          <entry key="md" value="569" />
-          <entry key="properties" value="12" />
-          <entry key="scala" value="8076" />
-          <entry key="txt" value="1157" />
-          <entry key="xml" value="14" />
+          <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7157" />
-          <entry key="Markdown" value="522" />
-          <entry key="PLAIN_TEXT" value="1208" />
-          <entry key="Properties" value="12" />
-          <entry key="Scala" value="8076" />
-          <entry key="XML" value="14" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="class" value="2" />
-          <entry key="java" value="30" />
-          <entry key="md" value="17" />
-          <entry key="png" value="1" />
-          <entry key="properties" value="1" />
-          <entry key="scala" value="59" />
-          <entry key="spark执行流程" value="1" />
-          <entry key="txt" value="2" />
-          <entry key="xml" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="2" />
-          <entry key="Image" value="1" />
-          <entry key="JAVA" value="30" />
-          <entry key="Markdown" value="17" />
-          <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Properties" value="1" />
-          <entry key="Scala" value="59" />
-          <entry key="XML" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.vcs.git.usages">
-        <counts>
-          <entry key="git.branch.checkout.remote" value="1" />
+          <entry key="XML" value="3" />
         </counts>
       </usages-collector>
     </session>
@@ -132,35 +44,47 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/knowledge/YARN调度过程(YARN-Client).md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor>
-                <caret column="103" selection-end-column="103" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/knowledge/YARN调度过程(YARN-Cluster).md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="400">
-                <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/src/main/java/dataStructure/array/TestArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/TestScala.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/companyWork/problem">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="25" selection-start-column="25" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/knowledge/RDD容错机制之checkpoint.md">
+        <entry file="file://$PROJECT_DIR$/companyWork/note/auth/auth.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="75">
-                <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+              <first_editor relative-caret-position="25">
+                <caret line="1" column="17" lean-forward="true" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
               </first_editor>
               <second_editor />
             </state>
@@ -169,94 +93,15 @@
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JUnit4 Test Class" />
-        <option value="ScalaTest Class" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>j</find>
-      <find>--------WordCount-------</find>
-      <find>NewThread</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>k</replace>
-      <replace>NewThread2</replace>
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="master" />
-      </map>
-    </option>
-    <option name="PUSH_TAGS">
-      <GitPushTagMode>
-        <option name="argument" value="--follow-tags" />
-        <option name="title" value="Current Branch" />
-      </GitPushTagMode>
-    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/scala/dataframe/UdafDemo.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/dataframe/Curry.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/Curry.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/grammar/Curry.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/dataframe/SecondSort.scala" />
-        <option value="$PROJECT_DIR$/src/main/java/sort/BubbleSort.java" />
-        <option value="$PROJECT_DIR$/src/log4j.properties" />
+        <option value="$PROJECT_DIR$/companyWork/problem" />
+        <option value="$PROJECT_DIR$/companyWork/note/auth/auth.md" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/scala/dataframe/CreateDF.scala" />
-        <option value="$PROJECT_DIR$/src/main/java/dataStructure/array/TestArray.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dataStructure/stack/TestStack.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dataStructure/queue/TestQueue.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dataStructure/linkedList/TestLinkedList.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dataStructure/recursion/Febonacci.scala" />
-        <option value="$PROJECT_DIR$/src/main/java/dataStructure/recursion/Febonacci.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dataStructure/recursion/Hanoi.java" />
-        <option value="$PROJECT_DIR$/src/main/scala/streaming/WriteData.scala" />
-        <option value="$PROJECT_DIR$/src/main/java/sort/QuickSort.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dataStructure/tree/BinaryTree.java" />
-        <option value="$PROJECT_DIR$/src/main/scala/streaming/data.txt" />
-        <option value="$PROJECT_DIR$/src/main/scala/streaming/WordCount.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/streaming/testData/data.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/dataStructure/tree/binaryTree/BinaryTree.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dataStructure/tree/binaryTree/TestBinaryTree.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dataStructure/tree/binaryTree/TreeNode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dataStructure/map/People.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dataStructure/map/TestMap.java" />
-        <option value="$PROJECT_DIR$/src/main/scala/grammar/implicit/TestImplicit.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/grammar/scalaImplicit/ScalaImplicit.scala" />
-        <option value="$PROJECT_DIR$/src/main/java/dataStructure/enumerate/Enum.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dataStructure/enumerate/ExeEnumeration.java" />
-        <option value="$PROJECT_DIR$/src/main/java/program/exception/scriptFile.scala" />
-        <option value="$PROJECT_DIR$/src/main/java/program/thread/ThreadDemo2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/program/thread/ThreadDemo1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/program/serializable/ExeSerializable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/program/serializable/ExeDeserialize.java" />
-        <option value="$PROJECT_DIR$/src/main/java/program/serializable/Employee.java" />
-        <option value="$PROJECT_DIR$/src/main/scala/broadCast/BroadCastEXE.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/TestScala.scala" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/main/scala/CommonlyUserMethod/ExeForeach.scala" />
-        <option value="$PROJECT_DIR$/tools/tools.md" />
-        <option value="$PROJECT_DIR$/knowledge/tools.md" />
-        <option value="$PROJECT_DIR$/knowledge/README.md" />
-        <option value="$PROJECT_DIR$/knowledge/spark执行流程.md" />
-        <option value="$PROJECT_DIR$/knowledge/spark节点调度过程.md" />
-        <option value="$PROJECT_DIR$/knowledge/dd.md" />
-        <option value="$PROJECT_DIR$/knowledge/StandAlone调度过程.md" />
-        <option value="$PROJECT_DIR$/knowledge/YARN调度过程(YARN-Client).md" />
-        <option value="$PROJECT_DIR$/knowledge/YARN调度过程(YARN-Cluster).md" />
-        <option value="$PROJECT_DIR$/knowledge/RDD容错机制之checkpoint.md" />
       </list>
     </option>
   </component>
@@ -269,7 +114,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="D:\AAAAAAASoft\maven\repertorySpark" />
+        <option name="localRepository" value="D:\AAAAAAASoft\maven\repertory" />
         <option name="mavenHome" value="$PROJECT_DIR$/../../maven/apache-maven-3.2.5" />
         <option name="userSettingsFile" value="D:\AAAAAAASoft\maven\apache-maven-3.2.5\conf\settingsSpark.xml" />
       </MavenGeneralSettings>
@@ -287,94 +132,41 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="140" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="970" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
-              <item name="BgDataKnowledge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BgDataKnowledge" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BgDataKnowledge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BgDataKnowledge" type="462c0819:PsiDirectoryNode" />
-              <item name="knowledge" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BgDataKnowledge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BgDataKnowledge" type="462c0819:PsiDirectoryNode" />
-              <item name="knowledge" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BgDataKnowledge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BgDataKnowledge" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BgDataKnowledge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BgDataKnowledge" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BgDataKnowledge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BgDataKnowledge" type="462c0819:PsiDirectoryNode" />
-              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="BgDataKnowledge" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="BgDataStudy" type="2674bda8:ScopeViewTreeModel$GroupNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562765247194" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="ScalaTest" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.ScalaTest" value="org.scalatest.FunSuite" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/scala" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sparkStudy" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563019665416" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="org.scalatest.FunSuite" />
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\AAAAAAASoft\IDEA\BgDataKnowledge\knowledge\img" />
-      <recent name="D:\AAAAAAASoft\IDEA\BgDataKnowledge\knowledge" />
-      <recent name="D:\AAAAAAASoft\IDEA\BgDataKnowledge\src\main\java\program\thread" />
-      <recent name="D:\AAAAAAASoft\IDEA\BgDataKnowledge\src\main\java\program\exception" />
-      <recent name="D:\AAAAAAASoft\IDEA\BgDataKnowledge\src\main\java\dataStructure\tree\binaryTree" />
-    </key>
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -388,13 +180,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestScala">
-    <configuration name="BroadCastEXE" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="broadCast.BroadCastEXE" />
-      <module name="BgDataStudy" />
+  <component name="RunManager" selected="Application.TestArray">
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sort.QuickSort" />
+      <module name="BgDataKnowledge" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="broadCast.*" />
+          <option name="PATTERN" value="sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -402,45 +194,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExeDeserialize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="program.serializable.ExeDeserialize" />
-      <module name="BgDataStudy" />
+    <configuration name="TestArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructure.array.TestArray" />
+      <module name="BgDataKnowledge" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="program.serializable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExeSerializable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="program.serializable.ExeSerializable" />
-      <module name="BgDataStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="program.serializable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestScala" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="TestScala" />
-      <module name="BgDataStudy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="program.thread.ThreadDemo1" />
-      <module name="BgDataStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="program.thread.*" />
+          <option name="PATTERN" value="dataStructure.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -449,19 +208,13 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ThreadDemo1" />
-      <item itemvalue="Application.ExeSerializable" />
-      <item itemvalue="Application.ExeDeserialize" />
-      <item itemvalue="Application.BroadCastEXE" />
-      <item itemvalue="Application.TestScala" />
+      <item itemvalue="Application.QuickSort" />
+      <item itemvalue="Application.TestArray" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestScala" />
-        <item itemvalue="Application.BroadCastEXE" />
-        <item itemvalue="Application.ExeDeserialize" />
-        <item itemvalue="Application.ExeSerializable" />
-        <item itemvalue="Application.ThreadDemo1" />
+        <item itemvalue="Application.TestArray" />
+        <item itemvalue="Application.QuickSort" />
       </list>
     </recent_temporary>
   </component>
@@ -473,456 +226,69 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3cc0a24a-0d06-4caf-9c5f-09c6cff6f246" name="Default Changelist" comment="" />
-      <created>1556376518734</created>
+      <changelist id="ef1dcfef-7dc0-43d5-8e75-f6c73dceb524" name="Default Changelist" comment="" />
+      <created>1562809385018</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1556376518734</updated>
-      <workItem from="1556376527588" duration="470000" />
-      <workItem from="1556377182282" duration="1187000" />
-      <workItem from="1556678156235" duration="2491000" />
-      <workItem from="1556775243412" duration="2271000" />
-      <workItem from="1556956713422" duration="10934000" />
-      <workItem from="1557061208500" duration="3048000" />
-      <workItem from="1557148780156" duration="2248000" />
-      <workItem from="1557239411990" duration="2425000" />
-      <workItem from="1557316599719" duration="2446000" />
-      <workItem from="1557410773223" duration="3574000" />
-      <workItem from="1557499162277" duration="2201000" />
-      <workItem from="1557540555283" duration="18507000" />
-      <workItem from="1557628321740" duration="17675000" />
-      <workItem from="1557752116451" duration="3515000" />
-      <workItem from="1557844364543" duration="891000" />
-      <workItem from="1557929779029" duration="3002000" />
-      <workItem from="1558099352180" duration="3885000" />
-      <workItem from="1558184791829" duration="5393000" />
-      <workItem from="1558242388058" duration="5501000" />
-      <workItem from="1558360525652" duration="1229000" />
-      <workItem from="1558449716863" duration="2585000" />
-      <workItem from="1558528233461" duration="3106000" />
-      <workItem from="1558621474345" duration="1963000" />
-      <workItem from="1558705229280" duration="591000" />
-      <workItem from="1558781833991" duration="1419000" />
-      <workItem from="1558857971186" duration="3577000" />
-      <workItem from="1559130203663" duration="2322000" />
-      <workItem from="1559226974485" duration="3710000" />
-      <workItem from="1559312662498" duration="3578000" />
-      <workItem from="1559354747392" duration="3079000" />
-      <workItem from="1559450479251" duration="2148000" />
-      <workItem from="1559566902198" duration="3603000" />
-      <workItem from="1559661339811" duration="995000" />
-      <workItem from="1559736224434" duration="2111000" />
-      <workItem from="1559824646279" duration="664000" />
-      <workItem from="1559875348697" duration="799000" />
-      <workItem from="1559898562292" duration="4354000" />
-      <workItem from="1560002936609" duration="1736000" />
-      <workItem from="1560173179634" duration="1939000" />
-      <workItem from="1560347380590" duration="1547000" />
-      <workItem from="1560434591409" duration="1642000" />
-      <workItem from="1560583662833" duration="3710000" />
-      <workItem from="1560867393795" duration="590000" />
-      <workItem from="1561124748950" duration="1441000" />
-      <workItem from="1561191718912" duration="654000" />
-      <workItem from="1561383727481" duration="2242000" />
-      <workItem from="1561471565862" duration="1653000" />
-      <workItem from="1561643264219" duration="1461000" />
-      <workItem from="1561907165173" duration="979000" />
-      <workItem from="1561985585464" duration="1230000" />
-      <workItem from="1562062217875" duration="2106000" />
-      <workItem from="1562157402577" duration="1349000" />
-      <workItem from="1562207360186" duration="933000" />
-      <workItem from="1562309250390" duration="298000" />
-      <workItem from="1562396389301" duration="737000" />
-      <workItem from="1562566083530" duration="143000" />
-      <workItem from="1562679336653" duration="1246000" />
-      <workItem from="1562765033555" duration="303000" />
-      <workItem from="1562851112563" duration="634000" />
+      <updated>1562809385018</updated>
+      <workItem from="1562809388945" duration="3670000" />
+      <workItem from="1562824588697" duration="3275000" />
+      <workItem from="1562834761675" duration="61000" />
+      <workItem from="1562933839105" duration="3011000" />
+      <workItem from="1563000854312" duration="3086000" />
     </task>
-    <task id="LOCAL-00106" summary="Scala Implicit">
-      <created>1559315814111</created>
-      <option name="number" value="00106" />
-      <option name="presentableId" value="LOCAL-00106" />
+    <task id="LOCAL-00001" summary="公司问题记录">
+      <created>1563019677676</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1559315814111</updated>
+      <updated>1563019677676</updated>
     </task>
-    <task id="LOCAL-00107" summary="Scala Implicit">
-      <created>1559316365807</created>
-      <option name="number" value="00107" />
-      <option name="presentableId" value="LOCAL-00107" />
-      <option name="project" value="LOCAL" />
-      <updated>1559316365807</updated>
-    </task>
-    <task id="LOCAL-00108" summary="Scala Implicit">
-      <created>1559316446035</created>
-      <option name="number" value="00108" />
-      <option name="presentableId" value="LOCAL-00108" />
-      <option name="project" value="LOCAL" />
-      <updated>1559316446035</updated>
-    </task>
-    <task id="LOCAL-00109" summary="Scala Implicit">
-      <created>1559316557916</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
-      <option name="project" value="LOCAL" />
-      <updated>1559316557916</updated>
-    </task>
-    <task id="LOCAL-00110" summary="Scala Implicit">
-      <created>1559366250573</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
-      <option name="project" value="LOCAL" />
-      <updated>1559366250574</updated>
-    </task>
-    <task id="LOCAL-00111" summary="format">
-      <created>1559486308268</created>
-      <option name="number" value="00111" />
-      <option name="presentableId" value="LOCAL-00111" />
-      <option name="project" value="LOCAL" />
-      <updated>1559486308270</updated>
-    </task>
-    <task id="LOCAL-00112" summary="format">
-      <created>1559486321192</created>
-      <option name="number" value="00112" />
-      <option name="presentableId" value="LOCAL-00112" />
-      <option name="project" value="LOCAL" />
-      <updated>1559486321192</updated>
-    </task>
-    <task id="LOCAL-00113" summary="Enumeration">
-      <created>1559569541498</created>
-      <option name="number" value="00113" />
-      <option name="presentableId" value="LOCAL-00113" />
-      <option name="project" value="LOCAL" />
-      <updated>1559569541500</updated>
-    </task>
-    <task id="LOCAL-00114" summary="Enumeration">
-      <created>1559569561849</created>
-      <option name="number" value="00114" />
-      <option name="presentableId" value="LOCAL-00114" />
-      <option name="project" value="LOCAL" />
-      <updated>1559569561849</updated>
-    </task>
-    <task id="LOCAL-00115" summary="exception">
-      <created>1559662307663</created>
-      <option name="number" value="00115" />
-      <option name="presentableId" value="LOCAL-00115" />
-      <option name="project" value="LOCAL" />
-      <updated>1559662307664</updated>
-    </task>
-    <task id="LOCAL-00116" summary="thread">
-      <created>1559740256172</created>
-      <option name="number" value="00116" />
-      <option name="presentableId" value="LOCAL-00116" />
-      <option name="project" value="LOCAL" />
-      <updated>1559740256174</updated>
-    </task>
-    <task id="LOCAL-00117" summary="thread runnable">
-      <created>1559740990339</created>
-      <option name="number" value="00117" />
-      <option name="presentableId" value="LOCAL-00117" />
-      <option name="project" value="LOCAL" />
-      <updated>1559740990339</updated>
-    </task>
-    <task id="LOCAL-00118" summary="thread runnable">
-      <created>1559741120847</created>
-      <option name="number" value="00118" />
-      <option name="presentableId" value="LOCAL-00118" />
-      <option name="project" value="LOCAL" />
-      <updated>1559741120847</updated>
-    </task>
-    <task id="LOCAL-00119" summary="thread runnable、extends Thread">
-      <created>1559825263196</created>
-      <option name="number" value="00119" />
-      <option name="presentableId" value="LOCAL-00119" />
-      <option name="project" value="LOCAL" />
-      <updated>1559825263196</updated>
-    </task>
-    <task id="LOCAL-00120" summary="Serializ">
-      <created>1559907156266</created>
-      <option name="number" value="00120" />
-      <option name="presentableId" value="LOCAL-00120" />
-      <option name="project" value="LOCAL" />
-      <updated>1559907156269</updated>
-    </task>
-    <task id="LOCAL-00121" summary="Serialize">
-      <created>1559907231329</created>
-      <option name="number" value="00121" />
-      <option name="presentableId" value="LOCAL-00121" />
-      <option name="project" value="LOCAL" />
-      <updated>1559907231330</updated>
-    </task>
-    <task id="LOCAL-00122" summary="Serialize">
-      <created>1559907490281</created>
-      <option name="number" value="00122" />
-      <option name="presentableId" value="LOCAL-00122" />
-      <option name="project" value="LOCAL" />
-      <updated>1559907490282</updated>
-    </task>
-    <task id="LOCAL-00123" summary="Serialize">
-      <created>1560004955793</created>
-      <option name="number" value="00123" />
-      <option name="presentableId" value="LOCAL-00123" />
-      <option name="project" value="LOCAL" />
-      <updated>1560004955796</updated>
-    </task>
-    <task id="LOCAL-00124" summary="OSchina Blog">
-      <created>1560175146330</created>
-      <option name="number" value="00124" />
-      <option name="presentableId" value="LOCAL-00124" />
-      <option name="project" value="LOCAL" />
-      <updated>1560175146332</updated>
-    </task>
-    <task id="LOCAL-00125" summary="BroadCast">
-      <created>1560348386156</created>
-      <option name="number" value="00125" />
-      <option name="presentableId" value="LOCAL-00125" />
-      <option name="project" value="LOCAL" />
-      <updated>1560348386171</updated>
-    </task>
-    <task id="LOCAL-00126" summary="BroadCast">
-      <created>1560348416725</created>
-      <option name="number" value="00126" />
-      <option name="presentableId" value="LOCAL-00126" />
-      <option name="project" value="LOCAL" />
-      <updated>1560348416725</updated>
-    </task>
-    <task id="LOCAL-00127" summary="BroadCast">
-      <created>1560435825934</created>
-      <option name="number" value="00127" />
-      <option name="presentableId" value="LOCAL-00127" />
-      <option name="project" value="LOCAL" />
-      <updated>1560435825936</updated>
-    </task>
-    <task id="LOCAL-00128" summary="反编译查看普通对象和伴生对象的区别">
-      <created>1560585157607</created>
-      <option name="number" value="00128" />
-      <option name="presentableId" value="LOCAL-00128" />
-      <option name="project" value="LOCAL" />
-      <updated>1560585157610</updated>
-    </task>
-    <task id="LOCAL-00129" summary="反编译查看普通对象和伴生对象的区别">
-      <created>1560585397031</created>
-      <option name="number" value="00129" />
-      <option name="presentableId" value="LOCAL-00129" />
-      <option name="project" value="LOCAL" />
-      <updated>1560585397031</updated>
-    </task>
-    <task id="LOCAL-00130" summary="反编译查看普通对象和伴生对象的区别">
-      <created>1560587376379</created>
-      <option name="number" value="00130" />
-      <option name="presentableId" value="LOCAL-00130" />
-      <option name="project" value="LOCAL" />
-      <updated>1560587376380</updated>
-    </task>
-    <task id="LOCAL-00131" summary="readme">
-      <created>1560867663416</created>
-      <option name="number" value="00131" />
-      <option name="presentableId" value="LOCAL-00131" />
-      <option name="project" value="LOCAL" />
-      <updated>1560867663420</updated>
-    </task>
-    <task id="LOCAL-00132" summary="foreach 和 map的区别。foreach迭代指定计算，返回Unit，Map返回指定类型的集合">
-      <created>1561126275283</created>
-      <option name="number" value="00132" />
-      <option name="presentableId" value="LOCAL-00132" />
-      <option name="project" value="LOCAL" />
-      <updated>1561126275287</updated>
-    </task>
-    <task id="LOCAL-00133" summary="foreach 和 map的区别。foreach迭代指定计算，返回Unit，Map返回指定类型的集合">
-      <created>1561126410893</created>
-      <option name="number" value="00133" />
-      <option name="presentableId" value="LOCAL-00133" />
-      <option name="project" value="LOCAL" />
-      <updated>1561126410893</updated>
-    </task>
-    <task id="LOCAL-00134" summary="format">
-      <created>1561192227802</created>
-      <option name="number" value="00134" />
-      <option name="presentableId" value="LOCAL-00134" />
-      <option name="project" value="LOCAL" />
-      <updated>1561192227804</updated>
-    </task>
-    <task id="LOCAL-00135" summary="map、foreach区别">
-      <created>1561384864510</created>
-      <option name="number" value="00135" />
-      <option name="presentableId" value="LOCAL-00135" />
-      <option name="project" value="LOCAL" />
-      <updated>1561384864511</updated>
-    </task>
-    <task id="LOCAL-00136" summary="开发工具介绍">
-      <created>1561474418726</created>
-      <option name="number" value="00136" />
-      <option name="presentableId" value="LOCAL-00136" />
-      <option name="project" value="LOCAL" />
-      <updated>1561474418728</updated>
-    </task>
-    <task id="LOCAL-00137" summary="开发工具介绍">
-      <created>1561474607660</created>
-      <option name="number" value="00137" />
-      <option name="presentableId" value="LOCAL-00137" />
-      <option name="project" value="LOCAL" />
-      <updated>1561474607660</updated>
-    </task>
-    <task id="LOCAL-00138" summary="开发工具介绍">
-      <created>1561644779499</created>
-      <option name="number" value="00138" />
-      <option name="presentableId" value="LOCAL-00138" />
-      <option name="project" value="LOCAL" />
-      <updated>1561644779501</updated>
-    </task>
-    <task id="LOCAL-00139" summary="开发工具介绍">
-      <created>1561908719546</created>
-      <option name="number" value="00139" />
-      <option name="presentableId" value="LOCAL-00139" />
-      <option name="project" value="LOCAL" />
-      <updated>1561908719548</updated>
-    </task>
-    <task id="LOCAL-00140" summary="Spark 触发Action之后的执行流程">
-      <created>1561986807213</created>
-      <option name="number" value="00140" />
-      <option name="presentableId" value="LOCAL-00140" />
-      <option name="project" value="LOCAL" />
-      <updated>1561986807214</updated>
-    </task>
-    <task id="LOCAL-00141" summary="Spark 触发Action之后的执行流程">
-      <created>1562062715187</created>
-      <option name="number" value="00141" />
-      <option name="presentableId" value="LOCAL-00141" />
-      <option name="project" value="LOCAL" />
-      <updated>1562062715187</updated>
-    </task>
-    <task id="LOCAL-00142" summary="Spark 触发Action之后的执行流程">
-      <created>1562062784391</created>
-      <option name="number" value="00142" />
-      <option name="presentableId" value="LOCAL-00142" />
-      <option name="project" value="LOCAL" />
-      <updated>1562062784391</updated>
-    </task>
-    <task id="LOCAL-00143" summary="spark节点调度过程">
-      <created>1562062953367</created>
-      <option name="number" value="00143" />
-      <option name="presentableId" value="LOCAL-00143" />
-      <option name="project" value="LOCAL" />
-      <updated>1562062953367</updated>
-    </task>
-    <task id="LOCAL-00144" summary="spark节点调度过程">
-      <created>1562062998172</created>
-      <option name="number" value="00144" />
-      <option name="presentableId" value="LOCAL-00144" />
-      <option name="project" value="LOCAL" />
-      <updated>1562062998172</updated>
-    </task>
-    <task id="LOCAL-00145" summary="Spark StandAlone调度过程">
-      <created>1562157881413</created>
-      <option name="number" value="00145" />
-      <option name="presentableId" value="LOCAL-00145" />
-      <option name="project" value="LOCAL" />
-      <updated>1562157881414</updated>
-    </task>
-    <task id="LOCAL-00146" summary="Spark StandAlone调度过程">
-      <created>1562158144907</created>
-      <option name="number" value="00146" />
-      <option name="presentableId" value="LOCAL-00146" />
-      <option name="project" value="LOCAL" />
-      <updated>1562158144908</updated>
-    </task>
-    <task id="LOCAL-00147" summary="Spark StandAlone调度过程">
-      <created>1562158485105</created>
-      <option name="number" value="00147" />
-      <option name="presentableId" value="LOCAL-00147" />
-      <option name="project" value="LOCAL" />
-      <updated>1562158485105</updated>
-    </task>
-    <task id="LOCAL-00148" summary="Yarn-client调度过程">
-      <created>1562208386239</created>
-      <option name="number" value="00148" />
-      <option name="presentableId" value="LOCAL-00148" />
-      <option name="project" value="LOCAL" />
-      <updated>1562208386241</updated>
-    </task>
-    <task id="LOCAL-00149" summary="Yarn-client调度过程">
-      <created>1562309520289</created>
-      <option name="number" value="00149" />
-      <option name="presentableId" value="LOCAL-00149" />
-      <option name="project" value="LOCAL" />
-      <updated>1562309520290</updated>
-    </task>
-    <task id="LOCAL-00150" summary="YARN调度过程(YARN-Cluster)">
-      <created>1562396717615</created>
-      <option name="number" value="00150" />
-      <option name="presentableId" value="LOCAL-00150" />
-      <option name="project" value="LOCAL" />
-      <updated>1562396717615</updated>
-    </task>
-    <task id="LOCAL-00151" summary="YARN调度过程(YARN-Cluster)">
-      <created>1562396835682</created>
-      <option name="number" value="00151" />
-      <option name="presentableId" value="LOCAL-00151" />
-      <option name="project" value="LOCAL" />
-      <updated>1562396835682</updated>
-    </task>
-    <task id="LOCAL-00152" summary="YARN调度过程(YARN-Cluster)">
-      <created>1562566189094</created>
-      <option name="number" value="00152" />
-      <option name="presentableId" value="LOCAL-00152" />
-      <option name="project" value="LOCAL" />
-      <updated>1562566189096</updated>
-    </task>
-    <task id="LOCAL-00153" summary="YARN调度过程(YARN-Cluster)">
-      <created>1562681127366</created>
-      <option name="number" value="00153" />
-      <option name="presentableId" value="LOCAL-00153" />
-      <option name="project" value="LOCAL" />
-      <updated>1562681127368</updated>
-    </task>
-    <task id="LOCAL-00154" summary="RDD容错机制之checkpoint">
-      <created>1562765228986</created>
-      <option name="number" value="00154" />
-      <option name="presentableId" value="LOCAL-00154" />
-      <option name="project" value="LOCAL" />
-      <updated>1562765228988</updated>
-    </task>
-    <option name="localTasksCounter" value="155" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="162070000" />
+    <option name="totallyTimeSpent" value="13103000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30937973" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26399395" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
-      <window_info id="Learn" order="6" weight="0.32980332" />
-      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32840723" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.15270936" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39901477" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3295964" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49621785" weight="0.32786885" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.50378215" side_tool="true" visible="true" weight="0.32840723" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" />
-      <window_info anchor="bottom" id="Thumbnails" order="12" weight="0.32840723" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32676518" />
+      <window_info anchor="bottom" id="SBT Console" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32840723" />
+      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.3295964" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.3295964" />
+      <window_info anchor="bottom" id="SBT Execute" order="15" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32980332" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.3294621" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info active="true" anchor="right" id="Maven Projects" order="10" visible="true" weight="0.2193646" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -932,112 +298,28 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Thread Binary Tree" />
-    <MESSAGE value="Huffman Code" />
-    <MESSAGE value="AVL BinaryTree Base on SortBinaryTree" />
-    <MESSAGE value="HashMap" />
-    <MESSAGE value="Scala Implicit" />
-    <MESSAGE value="Enumeration" />
-    <MESSAGE value="exception" />
-    <MESSAGE value="thread" />
-    <MESSAGE value="thread runnable" />
-    <MESSAGE value="thread runnable、extends Thread" />
-    <MESSAGE value="Serialize" />
-    <MESSAGE value="OSchina Blog" />
-    <MESSAGE value="BroadCast" />
-    <MESSAGE value="反编译查看普通对象和伴生对象的区别" />
-    <MESSAGE value="readme" />
-    <MESSAGE value="foreach 和 map的区别。foreach迭代指定计算，返回Unit，Map返回指定类型的集合" />
-    <MESSAGE value="format" />
-    <MESSAGE value="map、foreach区别" />
-    <MESSAGE value="开发工具介绍" />
-    <MESSAGE value="Spark 触发Action之后的执行流程" />
-    <MESSAGE value="spark节点调度过程" />
-    <MESSAGE value="Spark StandAlone调度过程" />
-    <MESSAGE value="Yarn-client调度过程" />
-    <MESSAGE value="YARN调度过程(YARN-Cluster)" />
-    <MESSAGE value="RDD容错机制之checkpoint" />
-    <option name="LAST_COMMIT_MESSAGE" value="RDD容错机制之checkpoint" />
-  </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="evaluateCodeFragment">
-      <expression>
-        <expression-string>System.getProperty(&quot;user.dir&quot;)</expression-string>
-        <language-id>Scala</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-    </expressions>
+    <MESSAGE value="公司问题记录" />
+    <option name="LAST_COMMIT_MESSAGE" value="公司问题记录" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/dataStructure/recursion/Febonacci.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/dataframe/SecondSort.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/java/sort/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+        <state relative-caret-position="75">
+          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sort/BubbleSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dataStructure/queue/TestQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dataStructure/linkedList/TestLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="33" column="47" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/streaming/data.txt" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/grammar/Curry.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-528">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/operator/O_Union.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/operator/O_aggregateByKey.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/dataframe/UdafDemo.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/dataframe/scalaUtil/MyUdaf2.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/java/TestJava.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/dataframe/UdfDemo2.scala">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        <state relative-caret-position="175">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1048,269 +330,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dataStructure/recursion/Febonacci.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dataStructure/recursion/Hanoi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-225">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dataStructure/tree/binaryTree/BinaryTree.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/operator/O_aggregate.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/streaming/WordCount.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/streaming/testData/data.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dataStructure/stack/TestStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="69" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dataStructure/tree/binaryTree/BinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dataStructure/tree/binaryTree/TestBinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1000">
-          <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dataStructure/tree/binaryTree/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dataStructure/map/TestMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/grammar/scalaImplicit/ScalaImplicit.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1075">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dataStructure/map/People.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/streaming/WriteData.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sort/QuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/program/exception/Exe_exeception.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/program/exception/scriptFile.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/dataStructure/enumerate/Enum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dataStructure/enumerate/ExeEnumeration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/program/thread/ThreadDemo2.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/operator/O_repartitionAndSortWithinPartitions.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/program/serializable/ExeSerializable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/program/serializable/ExeDeserialize.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/program/serializable/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/program/thread/ThreadDemo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9">
-          <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="50">
-            <caret line="2" selection-start-line="2" selection-end-line="2" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/dataframe/CreateDF.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/broadCast/BroadCastEXE.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/TestScala.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        <state relative-caret-position="150">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/CommonlyUserMethod/ExeForeach.scala">
+    <entry file="file://$PROJECT_DIR$/companyWork/problem">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        <state>
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/knowledge/Spark执行流程.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="275">
-            <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/knowledge/spark节点调度过程.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="175">
-            <caret line="7" selection-end-column="11" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/tools.md">
+    <entry file="file://$PROJECT_DIR$/companyWork/note/auth/auth.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="25">
-            <caret line="1" selection-start-line="1" selection-end-line="2" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/knowledge/StandAlone调度过程.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="25">
-            <caret line="1" column="110" lean-forward="true" selection-start-line="1" selection-end-line="1" selection-end-column="110" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/knowledge/YARN调度过程(YARN-Client).md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="103" selection-end-column="103" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/knowledge/YARN调度过程(YARN-Cluster).md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="400">
-            <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/knowledge/RDD容错机制之checkpoint.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="75">
-            <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <caret line="1" column="17" lean-forward="true" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
           </first_editor>
           <second_editor />
         </state>
