@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ef1dcfef-7dc0-43d5-8e75-f6c73dceb524" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/grammar/ForYield.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/grammar/ForYield.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,7 +19,7 @@
     <session id="-1536785481">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.115" value="1" />
           <entry key="project.open.time.121" value="1" />
           <entry key="project.open.time.85" value="1" />
@@ -31,13 +30,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="scala" value="485" />
-          <entry key="txt" value="32" />
+          <entry key="txt" value="45" />
           <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="32" />
+          <entry key="PLAIN_TEXT" value="45" />
           <entry key="Scala" value="485" />
           <entry key="XML" value="3" />
         </counts>
@@ -74,20 +73,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/grammar/ApplyMethod.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
+            <state relative-caret-position="309">
               <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/grammar/ForYield.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+            <state relative-caret-position="209">
+              <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -214,7 +213,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563108641178" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563109704290" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -318,7 +317,7 @@
       <workItem from="1562933839105" duration="3011000" />
       <workItem from="1563000854312" duration="7238000" />
       <workItem from="1563071172597" duration="3022000" />
-      <workItem from="1563087673464" duration="5729000" />
+      <workItem from="1563087673464" duration="5816000" />
     </task>
     <task id="LOCAL-00001" summary="公司问题记录">
       <created>1563019677676</created>
@@ -348,11 +347,18 @@
       <option name="project" value="LOCAL" />
       <updated>1563105299829</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="For Yield 表达式">
+      <created>1563109734811</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1563109734811</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26006000" />
+    <option name="totallyTimeSpent" value="26093000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -368,7 +374,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32840723" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32840723" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -405,7 +411,8 @@
     <MESSAGE value="公司问题记录" />
     <MESSAGE value="Scala For Yield表达式" />
     <MESSAGE value="Scala Apply方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="Scala Apply方法" />
+    <MESSAGE value="For Yield 表达式" />
+    <option name="LAST_COMMIT_MESSAGE" value="For Yield 表达式" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/sort/QuickSort.java">
@@ -467,17 +474,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/grammar/ApplyMethod.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/grammar/ForYield.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        <state relative-caret-position="209">
+          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/grammar/ForYield.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/grammar/ApplyMethod.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        <state relative-caret-position="309">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
         </state>
       </provider>
     </entry>
